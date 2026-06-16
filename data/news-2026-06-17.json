@@ -4,7 +4,7 @@
     {
       "score": 99,
       "articleDate": "2026-06-16",
-      "category": "AI/semiconductors",
+      "category": "AI·반도체",
       "keyword": "AI메모리, HBM, 메모리슈퍼사이클, 삼성전자, SK하이닉스",
       "title": "AI·빅테크가 바꿔놓은 메모리 사이클의 문법… “절벽 대신 계단식 성장”",
       "url": "https://biz.chosun.com/it-science/ict/2026/06/16/QOIHCHSVXNASNBFTHDJTMARQLE/"
@@ -12,7 +12,7 @@
     {
       "score": 98,
       "articleDate": "2026-06-16",
-      "category": "defense/aerospace",
+      "category": "방산·항공우주",
       "keyword": "K드론, 비행제어, 방산드론, 국산화",
       "title": "네패르, K-드론 '비행제어' 글로벌 경쟁력 완비…외산 의존 깬다",
       "url": "https://www.etnews.com/20260615000256"
@@ -20,7 +20,7 @@
     {
       "score": 97,
       "articleDate": "2026-06-16",
-      "category": "AI/semiconductors",
+      "category": "AI·반도체",
       "keyword": "AI반도체, RRAM, 차세대메모리, 단국대",
       "title": "단국대, AI 반도체용 RRAM 안정성 높이는 공정기술 개발 성과",
       "url": "https://www.etnews.com/20260616000206"
@@ -28,7 +28,7 @@
     {
       "score": 96,
       "articleDate": "2026-06-15",
-      "category": "defense/aerospace",
+      "category": "방산·항공우주",
       "keyword": "현대로템, 대드론, C-UAS, AI방호체계, 유로사토리",
       "title": "현대로템, 방산 전시회 유로사토리 참가…대드론 방호체계 공개",
       "url": "https://www.yna.co.kr/amp/view/AKR20260615082100003"
@@ -36,7 +36,7 @@
     {
       "score": 95,
       "articleDate": "2026-06-16",
-      "category": "AI/semiconductors",
+      "category": "AI·반도체",
       "keyword": "한미반도체, HBM, TC본더, 테라팹, AI반도체장비",
       "title": "곽동신 한미반도체 회장, 80억원 자사주 취득…“테라팹 공급 자신감”",
       "url": "https://biz.chosun.com/it-science/ict/2026/06/16/GZLVR77K3VESZDH3PUCR3DX4JY/"
@@ -44,7 +44,7 @@
     {
       "score": 94,
       "articleDate": "2026-06-14",
-      "category": "defense/aerospace",
+      "category": "방산·항공우주",
       "keyword": "방산혁신클러스터, AI드론, 안티드론, 인천",
       "title": "인천시, 490억원 방산혁신클러스터 유치…AI·드론 특화",
       "url": "https://www.etnews.com/20260614000072"
@@ -52,7 +52,7 @@
     {
       "score": 93,
       "articleDate": "2026-06-14",
-      "category": "shipbuilding/heavy industry",
+      "category": "조선·중공업",
       "keyword": "HD한국조선해양, 해상풍력지원선, 친환경선박, 국산화",
       "title": "HD한국조선해양, 말콘과 해상풍력 지원선 개발 맞손…국산화 추진",
       "url": "https://www.etnews.com/20260614000027"
@@ -60,7 +60,7 @@
     {
       "score": 93,
       "articleDate": "2026-06-14",
-      "category": "AI/semiconductors",
+      "category": "AI·반도체",
       "keyword": "삼성전기, 실리콘캐패시터, AI인프라, HBM전력부품",
       "title": "삼성전기, 실리콘 캐패시터로 AI 인프라 공략…올해 매출 14배 목표",
       "url": "https://biz.chosun.com/it-science/ict/2026/06/14/NXEZVQEPEREVVC4V4NXMNBY7QM/"
@@ -68,7 +68,7 @@
     {
       "score": 92,
       "articleDate": "2026-06-15",
-      "category": "defense/aerospace",
+      "category": "방산·항공우주",
       "keyword": "피지컬AI, 방산, 드론, 제조플랫폼, DH그룹",
       "title": "제조업 피지컬 AI·방산·드론 연결하는 '글로벌 플랫폼' 만든다",
       "url": "https://www.seoul.co.kr/news/economy/industry/2026/06/15/20260615031001"
@@ -76,7 +76,7 @@
     {
       "score": 91,
       "articleDate": "2026-06-14",
-      "category": "shipbuilding/heavy industry",
+      "category": "조선·중공업",
       "keyword": "한국·사우디, 핵심광물, 자동차, 조선, 공급망",
       "title": "韓-사우디, 광물 밸류체인 구축…車·조선 합작에도 '날개'",
       "url": "https://www.etnews.com/20260614000050"
@@ -84,7 +84,7 @@
     {
       "score": 90,
       "articleDate": "2026-06-15",
-      "category": "batteries/materials",
+      "category": "배터리·소재",
       "keyword": "유진테크놀로지, ESS, 각형배터리, 북미공급망",
       "title": "유진테크놀로지, 북미 ESS 각형 배터리 핵심 솔루션 공급 확대",
       "url": "https://www.etnews.com/20260615000319"
@@ -92,7 +92,7 @@
     {
       "score": 89,
       "articleDate": "2026-06-14",
-      "category": "automotive/robotics",
+      "category": "자동차·로봇",
       "keyword": "현대차, 현대모비스, e-코너모듈, 미래모빌리티",
       "title": "정의선 회장, '르망 24시 첫 출전' 제네시스 찾아 격려",
       "url": "https://biz.chosun.com/industry/car/2026/06/14/YMTKNMSDMRFQLLD4MMIBYVPEEY/"
@@ -100,7 +100,7 @@
     {
       "score": 88,
       "articleDate": "2026-06-16",
-      "category": "shipbuilding/heavy industry",
+      "category": "조선·중공업",
       "keyword": "반도체, 조선, 방산, 한국경제, 전략산업",
       "title": "칩·배·총이 韓 경제 견인…반도체 빼면 中에 밀린다",
       "url": "https://marketin.edaily.co.kr/News/ReadE?newsId=04165606645480080"
@@ -108,7 +108,7 @@
     {
       "score": 88,
       "articleDate": "2026-06-12",
-      "category": "AI/semiconductors",
+      "category": "AI·반도체",
       "keyword": "전력반도체, 자동차, 배터리, 조선, 방산, 공급망",
       "title": "“전력반도체를 제2 메모리로”…정부, R&D에 5000억 이상 투입",
       "url": "https://www.sedaily.com/article/20054869"
@@ -116,7 +116,7 @@
     {
       "score": 87,
       "articleDate": "2026-06-13",
-      "category": "automotive/robotics",
+      "category": "자동차·로봇",
       "keyword": "우주로봇, AI로봇, 소행성채굴, NASA",
       "title": "[인터뷰] 일론 머스크가 꿈꾸는 소행성 채굴… 이사 네스나스 NASA 제트추진연구소 수석 로봇공학 책임자",
       "url": "https://biz.chosun.com/it-science/ict/2026/06/13/HGO5TI7EBRHO7B46FFTQSVENOE/"
@@ -124,7 +124,7 @@
     {
       "score": 86,
       "articleDate": "2026-06-16",
-      "category": "automotive/robotics",
+      "category": "자동차·로봇",
       "keyword": "라이다, 로봇, 드론, 방산, 스마트인프라",
       "title": "베이리스, 글로벌 라이다 기업 Ouster와 총판 계약 체결…방산·로봇·드론 시장 공략",
       "url": "https://www.etnews.com/20260615000424"
@@ -132,7 +132,7 @@
     {
       "score": 86,
       "articleDate": "2026-06-13",
-      "category": "nuclear energy/SMR",
+      "category": "원전·SMR",
       "keyword": "SMR, 미국, 일본, 차세대원전, 원전공급망",
       "title": "美·日, SMR 손잡았다",
       "url": "https://www.chosun.com/international/international_general/2026/06/13/OH46CHP2FVC33JTF6FT5O7FEMI/"
@@ -140,7 +140,7 @@
     {
       "score": 85,
       "articleDate": "2026-06-16",
-      "category": "batteries/materials",
+      "category": "배터리·소재",
       "keyword": "해양배터리, KETI, 데이터허브, 검인증, AI분석",
       "title": "KETI, 해양배터리 데이터 허브 구축 착수…검·인증 체계 마련",
       "url": "https://www.e4ds.com/sub_view.asp?ch=4&idx=22773&t=0"
@@ -148,7 +148,7 @@
     {
       "score": 84,
       "articleDate": "2026-06-16",
-      "category": "batteries/materials",
+      "category": "배터리·소재",
       "keyword": "배터리공급망, 한미협력, 정제련, 전략소재",
       "title": "中배터리 지배 견제 해법은 협력..韓기업 역할 부각",
       "url": "https://www.fnnews.com/news/202606161541452553"
@@ -156,7 +156,7 @@
     {
       "score": 83,
       "articleDate": "2026-06-14",
-      "category": "batteries/materials",
+      "category": "배터리·소재",
       "keyword": "K배터리, 분리막, ESS, AI데이터센터, 공급망",
       "title": "분리막 ‘90% 中 쏠림’⋯ K배터리 공급망 구멍 커졌다",
       "url": "https://www.viva100.com/article/20260614500351"
