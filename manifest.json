@@ -1,1 +1,7 @@
-{"date": "2026-06-16", "label": "TOP20", "file": "data/news-2026-06-16.json"}
+[
+  {
+    "date": "2026-06-16",
+    "label": "TOP20",
+    "file": "data/news-2026-06-16.json"
+  }
+]
