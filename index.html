@@ -5,15 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>국뽕뉴스 날짜별 대시보드</title>
   <style>
-    :root{--bg:#0b0f14;--card:#151b23;--line:#283241;--text:#f3f6fa;--muted:#9ca8b8;--red:#ff3b30;--gold:#f4b942;--green:#28d17c}
+    :root{
+      --bg:#0b0f14;--card:#151b23;--line:#283241;--text:#f3f6fa;
+      --muted:#9ca8b8;--red:#ff3b30;--gold:#f4b942;--green:#28d17c
+    }
     *{box-sizing:border-box}
     body{margin:0;background:linear-gradient(180deg,#070a0f,#111823);font-family:Apple SD Gothic Neo,Noto Sans KR,Arial,sans-serif;color:var(--text)}
-    header{position:sticky;top:0;z-index:10;background:rgba(11,15,20,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+    header{position:sticky;top:0;z-index:10;background:rgba(11,15,20,.94);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
     .wrap{max-width:1280px;margin:0 auto;padding:22px 18px}
-    h1{margin:0;font-size:28px}.sub{margin-top:8px;color:var(--muted);font-size:14px}
+    h1{margin:0;font-size:28px}.sub{margin-top:8px;color:var(--muted);font-size:14px;line-height:1.5}
     .toolbar{display:flex;gap:10px;flex-wrap:wrap;margin:18px auto 0;max-width:1280px;padding:0 18px 18px}
-    input,select{background:#0e141c;color:var(--text);border:1px solid var(--line);border-radius:12px;padding:12px 14px;font-size:15px}
-    input{flex:1;min-width:240px}
+    input,select,button{background:#0e141c;color:var(--text);border:1px solid var(--line);border-radius:12px;padding:12px 14px;font-size:15px}
+    input[type="text"]{flex:1;min-width:240px}
+    button{cursor:pointer;font-weight:800;background:#263244}
     .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:18px}
     .stat{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px}.stat b{display:block;font-size:24px;color:var(--gold)}
     .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
@@ -24,6 +28,7 @@
     .date{color:#fff;background:#263244;border:1px solid var(--line);font-size:13px;border-radius:999px;padding:6px 10px}
     .kw{color:var(--gold);font-weight:800;font-size:15px;margin:8px 0}.title{font-size:20px;line-height:1.35;font-weight:800;margin:8px 0 14px}
     a.btn{display:inline-block;text-decoration:none;background:var(--red);color:white;font-weight:800;border-radius:12px;padding:11px 14px}.url{margin-top:10px;color:var(--muted);font-size:12px;word-break:break-all}
+    .notice{background:#192333;border:1px solid var(--line);border-radius:16px;padding:18px;color:#dce7f7;line-height:1.55}
     .error{background:#2a1518;border:1px solid #713039;border-radius:16px;padding:18px;color:#ffd7d7}
     @media(max-width:820px){.grid{grid-template-columns:1fr}.stats{grid-template-columns:repeat(2,1fr)}h1{font-size:23px}}
   </style>
@@ -32,11 +37,13 @@
 <header>
   <div class="wrap">
     <h1>국뽕뉴스 날짜별 소스 대시보드</h1>
-    <div class="sub">날짜 선택 · 추천도순 정렬 · 카테고리 필터 · 키워드 검색 · 기사 원문 바로가기</div>
+    <div class="sub">manifest.json 없이 작동합니다. 앞으로는 data/news-YYYY-MM-DD.json 파일만 추가 업로드하면 됩니다.</div>
   </div>
   <div class="toolbar">
-    <select id="dateSelect"></select>
-    <input id="q" placeholder="키워드/제목 검색 예: HBM, KF-21, SMR" />
+    <select id="dateSelect"><option>날짜 검색 중...</option></select>
+    <input id="manualDate" type="date" />
+    <button id="loadDateBtn">날짜 불러오기</button>
+    <input id="q" type="text" placeholder="키워드/제목 검색 예: HBM, KF-21, SMR" />
     <select id="cat"><option value="전체">전체 카테고리</option></select>
   </div>
 </header>
@@ -46,49 +53,86 @@
     <div class="stat"><b id="count">0</b>표시 기사</div>
     <div class="stat"><b id="avg">0</b>평균 추천도</div>
     <div class="stat"><b id="updated">-</b>선택 날짜</div>
-    <div class="stat"><b id="totalDates">0</b>저장 날짜</div>
+    <div class="stat"><b id="totalDates">0</b>발견 날짜</div>
   </section>
   <section id="grid" class="grid"></section>
 </main>
 
 <script>
-let manifest = [];
+let available = [];
 let news = [];
 let selectedDate = "";
 
-async function loadManifest(){
+function pad(n){return String(n).padStart(2,"0")}
+function fmtDate(d){return `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}`}
+function dateToFile(date){return `data/news-${date}.json`}
+
+async function existsJson(date){
+  const file = dateToFile(date);
   try{
-    const res = await fetch("./manifest.json?ts=" + Date.now());
-    if(!res.ok) throw new Error("manifest.json 로드 실패");
-    manifest = await res.json();
-    manifest.sort((a,b)=> b.date.localeCompare(a.date));
-    const sel = document.getElementById("dateSelect");
-    sel.innerHTML = manifest.map(d=>`<option value="${d.file}">${d.date} (${d.label || "뉴스"})</option>`).join("");
-    document.getElementById("totalDates").textContent = manifest.length;
-    if(manifest.length) await loadNews(manifest[0].file);
-  }catch(e){
-    document.getElementById("grid").innerHTML = `<div class="error">manifest.json 파일을 찾지 못했습니다.</div>`;
-  }
+    const res = await fetch(file + "?ts=" + Date.now(), {cache:"no-store"});
+    if(!res.ok) return null;
+    const data = await res.json();
+    return {date, file, data};
+  }catch(e){ return null; }
 }
 
-async function loadNews(file){
-  try{
-    const res = await fetch("./" + file + "?ts=" + Date.now());
-    if(!res.ok) throw new Error("뉴스 JSON 로드 실패");
-    const data = await res.json();
-    selectedDate = data.updatedAt || "";
-    news = (data.items || []).sort((a,b)=>(b.score||0)-(a.score||0));
-    initCategories();
-    render();
-  }catch(e){
-    document.getElementById("grid").innerHTML = `<div class="error">${file} 파일을 찾지 못했습니다.</div>`;
+async function scanRecentDates(){
+  const grid = document.getElementById("grid");
+  grid.innerHTML = `<div class="notice">최근 날짜별 JSON 파일을 찾는 중입니다. 잠시만 기다려 주세요.</div>`;
+
+  const today = new Date();
+  const checks = [];
+  for(let i=0; i<180; i++){
+    const d = new Date(today);
+    d.setDate(today.getDate() - i);
+    checks.push(existsJson(fmtDate(d)));
   }
+
+  const found = (await Promise.all(checks)).filter(Boolean);
+  available = found.sort((a,b)=>b.date.localeCompare(a.date));
+
+  const sel = document.getElementById("dateSelect");
+  document.getElementById("totalDates").textContent = available.length;
+
+  if(!available.length){
+    sel.innerHTML = `<option>발견된 파일 없음</option>`;
+    grid.innerHTML = `<div class="error">data/news-YYYY-MM-DD.json 파일을 찾지 못했습니다. data 폴더에 날짜별 JSON을 업로드해 주세요.</div>`;
+    return;
+  }
+
+  sel.innerHTML = available.map(x=>`<option value="${x.date}">${x.date}</option>`).join("");
+  await loadDate(available[0].date);
+}
+
+async function loadDate(date){
+  const found = available.find(x=>x.date === date);
+  let data;
+  if(found){
+    data = found.data;
+  }else{
+    const result = await existsJson(date);
+    if(!result){
+      document.getElementById("grid").innerHTML = `<div class="error">${dateToFile(date)} 파일이 없습니다.</div>`;
+      return;
+    }
+    data = result.data;
+    available.push(result);
+    available.sort((a,b)=>b.date.localeCompare(a.date));
+    document.getElementById("totalDates").textContent = available.length;
+    document.getElementById("dateSelect").innerHTML = available.map(x=>`<option value="${x.date}">${x.date}</option>`).join("");
+  }
+  selectedDate = data.updatedAt || date;
+  news = (data.items || []).sort((a,b)=>(b.score||0)-(a.score||0));
+  initCategories();
+  render();
 }
 
 function initCategories(){
   const cats = [...new Set(news.map(n=>n.category).filter(Boolean))];
   document.getElementById("cat").innerHTML = `<option value="전체">전체 카테고리</option>` + cats.map(c=>`<option value="${c}">${c}</option>`).join("");
 }
+
 function render(){
   const q = document.getElementById('q').value.trim().toLowerCase();
   const cat = document.getElementById('cat').value;
@@ -98,17 +142,26 @@ function render(){
   document.getElementById('updated').textContent = selectedDate || "-";
   document.getElementById('grid').innerHTML = filtered.map(n => `
     <article class="card">
-      <div class="top"><span class="score">추천도 ${n.score}</span><span class="date">${n.date || "날짜 없음"}</span><span class="cat">${n.category || "기타"}</span></div>
+      <div class="top">
+        <span class="score">추천도 ${n.score}</span>
+        <span class="date">${n.date || "날짜 없음"}</span>
+        <span class="cat">${n.category || "기타"}</span>
+      </div>
       <div class="kw">${n.keyword || ""}</div>
       <div class="title">${n.title || ""}</div>
       <a class="btn" href="${n.url}" target="_blank" rel="noopener">기사 바로가기</a>
       <div class="url">${n.url || ""}</div>
     </article>`).join('');
 }
-document.getElementById('dateSelect').addEventListener('change', e => loadNews(e.target.value));
+
+document.getElementById('dateSelect').addEventListener('change', e => loadDate(e.target.value));
 document.getElementById('q').addEventListener('input', render);
 document.getElementById('cat').addEventListener('change', render);
-loadManifest();
+document.getElementById('loadDateBtn').addEventListener('click', () => {
+  const date = document.getElementById('manualDate').value;
+  if(date) loadDate(date);
+});
+scanRecentDates();
 </script>
 </body>
 </html>
