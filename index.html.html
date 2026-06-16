@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>국뽕뉴스 소스 대시보드</title>
+  <style>
+    :root{
+      --bg:#0b0f14; --card:#151b23; --line:#283241; --text:#f3f6fa;
+      --muted:#9ca8b8; --red:#ff3b30; --gold:#f4b942; --green:#28d17c;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:linear-gradient(180deg,#070a0f,#111823);font-family:Apple SD Gothic Neo,Noto Sans KR,Arial,sans-serif;color:var(--text)}
+    header{position:sticky;top:0;z-index:10;background:rgba(11,15,20,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);padding:22px 20px}
+    h1{margin:0;font-size:28px}
+    .sub{margin-top:8px;color:var(--muted);font-size:14px}
+    .wrap{max-width:1280px;margin:0 auto;padding:22px 18px 60px}
+    .toolbar{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0}
+    input,select{background:#0e141c;color:var(--text);border:1px solid var(--line);border-radius:12px;padding:12px 14px;font-size:15px}
+    input{flex:1;min-width:240px}
+    .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:18px}
+    .stat{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px}
+    .stat b{display:block;font-size:24px;color:var(--gold)}
+    .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+    .card{background:rgba(21,27,35,.96);border:1px solid var(--line);border-radius:18px;padding:18px;box-shadow:0 8px 24px rgba(0,0,0,.25)}
+    .top{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:10px}
+    .score{font-weight:800;color:#06110b;background:linear-gradient(135deg,#ffd76a,#ffae00);border-radius:999px;padding:7px 12px}
+    .cat{color:var(--green);font-size:13px;border:1px solid rgba(40,209,124,.35);border-radius:999px;padding:6px 10px}
+    .kw{color:var(--gold);font-weight:800;font-size:15px;margin:8px 0}
+    .title{font-size:20px;line-height:1.35;font-weight:800;margin:8px 0 14px}
+    a.btn{display:inline-block;text-decoration:none;background:var(--red);color:white;font-weight:800;border-radius:12px;padding:11px 14px}
+    .url{margin-top:10px;color:var(--muted);font-size:12px;word-break:break-all}
+    @media(max-width:820px){.grid{grid-template-columns:1fr}.stats{grid-template-columns:repeat(2,1fr)}h1{font-size:23px}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap" style="padding:0 18px">
+    <h1>국뽕뉴스 소스 대시보드</h1>
+    <div class="sub">추천도순 정렬 · 카테고리 필터 · 키워드 검색 · 기사 원문 바로가기</div>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="toolbar">
+    <input id="q" placeholder="키워드/제목 검색 예: HBM, KF-21, SMR" />
+    <select id="cat">
+      <option value="전체">전체 카테고리</option>
+      <option value="AI/반도체">AI/반도체</option>
+      <option value="방산/항공우주">방산/항공우주</option>
+      <option value="조선/중공업">조선/중공업</option>
+      <option value="자동차/로봇">자동차/로봇</option>
+      <option value="배터리/소재">배터리/소재</option>
+      <option value="원전/SMR">원전/SMR</option>
+      <option value="연구/세계최초">연구/세계최초</option>
+    </select>
+  </div>
+
+  <section class="stats">
+    <div class="stat"><b id="count">20</b>표시 기사</div>
+    <div class="stat"><b id="avg">92</b>평균 추천도</div>
+    <div class="stat"><b>20+</b>추천도 기준</div>
+    <div class="stat"><b>원문</b>기사 링크</div>
+  </section>
+
+  <section id="grid" class="grid"></section>
+</main>
+
+<script>
+const news = [
+ {s:99,c:"AI/반도체",k:"HBM, AI반도체, SK하이닉스, 삼성전자",t:"HBM으로 달라진 K반도체 위상…AI 공급망 핵심축 됐다",u:"https://v.daum.net/v/20260601050015379"},
+ {s:97,c:"AI/반도체",k:"HBM, AI메모리, 반도체패권",t:"HBM 공급 78% 장악한 한국…AI 칩 전쟁의 핵심",u:"https://www.g-enews.com/article/Global-Biz/2026/03/202603241854441713fbbec65dfb_1"},
+ {s:95,c:"AI/반도체",k:"젠슨황, 엔비디아, AI반도체",t:"젠슨 황의 방한과 AI 버블에 대해 알아야 할 사항은?",u:"https://www.tradingkey.com/kr/analysis/stocks/us-stocks/261965400-nvda-qcom-ai-samsung-skhynix-dram-mu-hbm4-tradingkey"},
+ {s:93,c:"AI/반도체",k:"AI인프라, 데이터센터, 전력망",t:"전력망이 막히면 반도체도 멈춘다",u:"https://www.efn.co.kr/news/articleView.html?idxno=2604"},
+ {s:91,c:"AI/반도체",k:"반도체브랜드, 삼성전자, SK하이닉스",t:"삼성전자·SK하이닉스 독주…반도체 브랜드평판 판도 뒤흔든 6월 순위",u:"https://www.pinpointnews.co.kr/news/articleView.html?idxno=457366"},
+ {s:98,c:"방산/항공우주",k:"KF-21, 유무인복합체계, KAI",t:"KAI, 드론쇼 코리아 2026 참가…KF-21 연계 MUM-T 통합 솔루션 제시",u:"https://www.kukinews.com/article/view/kuk202602250268"},
+ {s:96,c:"방산/항공우주",k:"KF-21, 미래공중전, 무인전투기",t:"KAI, 드론쇼 코리아 2026에서 유무인 복합체계 기반 미래 공중전 공개",u:"https://www.defensetoday.kr/news/articleView.html?idxno=10006"},
+ {s:94,c:"방산/항공우주",k:"AI드론, K방산, 미래전장",t:"K-방산·항공 거물들, 드론쇼코리아 2026 총출동…핵심은 AI",u:"https://www.greened.kr/news/articleView.html?idxno=337409"},
+ {s:92,c:"방산/항공우주",k:"드론전쟁, 무인기, 방산",t:"동맹서 경쟁으로…대한항공 vs LIG넥스원 vs KAI, 드론 맞대결",u:"https://www.shinailbo.co.kr/news/articleView.html?idxno=2196917"},
+ {s:90,c:"방산/항공우주",k:"미사일, 현대전, KF-21",t:"무인기 시대라지만…전쟁 판도 바꾼 건 미사일과 활공폭탄이었다",u:"https://v.daum.net/v/20260605093549762"},
+ {s:97,c:"조선/중공업",k:"SMR추진선, HD현대, 자동차운반선",t:"HD현대, SMR 추진 자동차운반선 개발 본격화",u:"https://www.monthlymaritimekorea.com/news/articleView.html?idxno=56977"},
+ {s:95,c:"조선/중공업",k:"원자력추진선, SMR, 조선업",t:"HD현대, SMR 추진선 개발 속도",u:"https://www.mk.co.kr/news/business/12067052"},
+ {s:92,c:"조선/중공업",k:"미래선박, 친환경선박, K조선",t:"HD현대, SMR 추진선 라인업 확대…자동차운반선 설계 기본인증",u:"https://v.daum.net/v/PQVOKUKppL"},
+ {s:91,c:"자동차/로봇",k:"친환경차, 전기차, 현대차",t:"글로벌 자동차 판매 10대 중 4대 친환경차 시대",u:"https://www.pcccr.go.kr/base/board/read?boardManagementNo=70&boardNo=7333"},
+ {s:88,c:"자동차/로봇",k:"피지컬AI, 산업로봇, 제조혁신",t:"컴퓨텍스 이후 본격화된 피지컬 AI 경쟁",u:"https://biz.chosun.com/it-science/ict/2026/06/03/NRKZC6D53JES5OSMY6XBBUYM3Q/"},
+ {s:86,c:"자동차/로봇",k:"스마트제조, AI팩토리, 로봇산업",t:"AI 팩토리 시대 개막…제조 혁신 가속",u:"https://news.skhynix.co.kr/computex-2026-review/"},
+ {s:90,c:"배터리/소재",k:"ESS, 배터리, 데이터센터",t:"AI 데이터센터 확대에 ESS 시장 성장 기대",u:"https://www.efn.co.kr/news/articleView.html?idxno=2604"},
+ {s:87,c:"배터리/소재",k:"첨단소재, 공급망, MLCC",t:"AI 시대 첨단소재 경쟁력 강화 본격화",u:"https://v.daum.net/v/20260601143127406"},
+ {s:95,c:"원전/SMR",k:"SMR, 원전수출, 원자력산업",t:"HD현대의 원자력 기업 변신…SMR·원자력 추진선 선점 나선다",u:"https://www.ntoday.co.kr/news/articleView.html?idxno=127559"},
+ {s:92,c:"연구/세계최초",k:"한국원자력연구원, MSR, 차세대원전",t:"HD현대, 용융염원자로 기반 차세대 원자력 추진선 개발 확대",u:"https://www.thelec.kr/news/articleView.html?idxno=57654"}
+].sort((a,b)=>b.s-a.s);
+
+function render(){
+  const q = document.getElementById('q').value.trim().toLowerCase();
+  const cat = document.getElementById('cat').value;
+  const filtered = news.filter(n => (cat==="전체" || n.c===cat) && (n.k+n.t+n.u).toLowerCase().includes(q));
+  document.getElementById('count').textContent = filtered.length;
+  document.getElementById('avg').textContent = filtered.length ? Math.round(filtered.reduce((a,n)=>a+n.s,0)/filtered.length) : 0;
+  document.getElementById('grid').innerHTML = filtered.map(n => `
+    <article class="card">
+      <div class="top"><span class="score">추천도 ${n.s}</span><span class="cat">${n.c}</span></div>
+      <div class="kw">${n.k}</div>
+      <div class="title">${n.t}</div>
+      <a class="btn" href="${n.u}" target="_blank" rel="noopener">기사 바로가기</a>
+      <div class="url">${n.u}</div>
+    </article>
+  `).join('');
+}
+document.getElementById('q').addEventListener('input', render);
+document.getElementById('cat').addEventListener('change', render);
+render();
+</script>
+</body>
+</html>
