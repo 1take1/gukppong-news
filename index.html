@@ -5,7 +5,219 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>국뽕뉴스 날짜별 소스 대시보드</title>
   <style>
-    :root{--bg:#070d12;--panel:#111923;--panel2:#151f2b;--line:#263445;--text:#f2f5f8;--muted:#9aa6b2;--accent:#ffbd3f;--red:#ff4242;--green:#35d07f}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans KR",Arial,sans-serif;line-height:1.5}.wrap{width:min(100%,980px);margin:0 auto;padding:28px 18px 48px}.header{margin-bottom:22px}h1{margin:0 0 8px;font-size:clamp(26px,6vw,42px);line-height:1.18;font-weight:900;letter-spacing:-.05em}.maker{color:var(--accent);font-size:17px;font-weight:800;margin-bottom:16px}.desc{color:var(--muted);font-size:16px;word-break:keep-all}.date-row{display:flex;gap:10px;margin:22px 0 18px;overflow-x:auto;padding-bottom:2px;scrollbar-width:none}.date-row::-webkit-scrollbar{display:none}.date-btn{border:1px solid var(--line);background:var(--panel);color:var(--text);padding:12px 17px;border-radius:999px;font-size:17px;font-weight:900;white-space:nowrap;cursor:pointer}.date-btn.active{background:var(--red);border-color:var(--red);color:#fff}.filter-row{display:grid;grid-template-columns:minmax(0,1fr) 142px;gap:8px;margin:8px 0 18px;align-items:center}.search,.select{width:100%;min-height:48px;border:1px solid var(--line);background:#0d141d;color:var(--text);border-radius:14px;padding:0 14px;font-size:15px;outline:none}.search::placeholder{color:#6f7b87}.select{cursor:pointer;font-weight:800}.list{display:grid;gap:14px;margin-top:10px}.card{background:linear-gradient(180deg,var(--panel2),#101821);border:1px solid var(--line);border-radius:22px;padding:18px 18px 16px;box-shadow:0 10px 30px rgba(0,0,0,.18)}.meta{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:12px;font-size:14px;font-weight:900}.pill{display:inline-flex;align-items:center;min-height:30px;padding:5px 10px;border-radius:999px;background:#202a36;color:#dbe3eb;white-space:nowrap}.pill.score{background:var(--accent);color:#101010;font-size:16px}.pill.category{border:1px solid rgba(53,208,127,.55);color:#54e092;background:rgba(53,208,127,.08)}.keyword{color:var(--accent);font-weight:900;font-size:16px;line-height:1.45;margin-bottom:10px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;word-break:keep-all}.title{color:var(--text);font-size:20px;font-weight:900;line-height:1.35;letter-spacing:-.03em;margin-bottom:14px;word-break:keep-all}.link{display:inline-flex;align-items:center;justify-content:center;min-height:42px;padding:9px 15px;border-radius:999px;background:#fff;color:#101010;font-size:15px;font-weight:900;text-decoration:none}.empty{padding:30px 16px;color:var(--muted);text-align:center;border:1px dashed var(--line);border-radius:18px}@media(max-width:520px){.wrap{padding:28px 14px 42px}.desc{font-size:14px}.date-btn{padding:11px 15px;font-size:16px}.filter-row{grid-template-columns:minmax(0,1fr) 118px;gap:7px}.search,.select{min-height:46px;border-radius:13px;font-size:14px;padding:0 11px}.card{padding:16px 15px 15px;border-radius:20px}.meta{gap:6px;font-size:13px;margin-bottom:10px}.pill{min-height:28px;padding:4px 9px}.pill.score{font-size:14px}.keyword{font-size:15px;margin-bottom:8px}.title{font-size:18px;margin-bottom:12px}}
+    :root {
+      --bg: #070d12;
+      --panel: #111923;
+      --panel2: #151f2b;
+      --line: #263445;
+      --text: #f2f5f8;
+      --muted: #9aa6b2;
+      --accent: #ffbd3f;
+      --red: #ff4242;
+      --green: #35d07f;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans KR", Arial, sans-serif;
+      line-height: 1.5;
+    }
+
+    .wrap {
+      width: min(100%, 980px);
+      margin: 0 auto;
+      padding: 28px 18px 48px;
+    }
+
+    .header { margin-bottom: 22px; }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(26px, 6vw, 42px);
+      line-height: 1.18;
+      font-weight: 900;
+      letter-spacing: -0.05em;
+    }
+
+    .maker {
+      color: var(--accent);
+      font-size: 17px;
+      font-weight: 800;
+      margin-bottom: 16px;
+    }
+
+    .desc {
+      color: var(--muted);
+      font-size: 16px;
+      word-break: keep-all;
+    }
+
+    .date-row {
+      display: flex;
+      gap: 10px;
+      margin: 22px 0 18px;
+      overflow-x: auto;
+      padding-bottom: 2px;
+      scrollbar-width: none;
+    }
+
+    .date-row::-webkit-scrollbar { display: none; }
+
+    .date-btn {
+      border: 1px solid var(--line);
+      background: var(--panel);
+      color: var(--text);
+      padding: 12px 17px;
+      border-radius: 999px;
+      font-size: 17px;
+      font-weight: 900;
+      white-space: nowrap;
+      cursor: pointer;
+    }
+
+    .date-btn.active {
+      background: var(--red);
+      border-color: var(--red);
+      color: #fff;
+    }
+
+    .filter-row {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 142px;
+      gap: 8px;
+      margin: 8px 0 18px;
+      align-items: center;
+    }
+
+    .search,
+    .select {
+      width: 100%;
+      min-height: 48px;
+      border: 1px solid var(--line);
+      background: #0d141d;
+      color: var(--text);
+      border-radius: 14px;
+      padding: 0 14px;
+      font-size: 15px;
+      outline: none;
+    }
+
+    .search::placeholder { color: #6f7b87; }
+
+    .select {
+      cursor: pointer;
+      font-weight: 800;
+    }
+
+    .list {
+      display: grid;
+      gap: 14px;
+      margin-top: 10px;
+    }
+
+    .card {
+      background: linear-gradient(180deg, var(--panel2), #101821);
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      padding: 18px 18px 16px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.18);
+    }
+
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+      margin-bottom: 12px;
+      font-size: 14px;
+      font-weight: 900;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      min-height: 30px;
+      padding: 5px 10px;
+      border-radius: 999px;
+      background: #202a36;
+      color: #dbe3eb;
+      white-space: nowrap;
+    }
+
+    .pill.score {
+      background: var(--accent);
+      color: #101010;
+      font-size: 16px;
+    }
+
+    .pill.category {
+      border: 1px solid rgba(53, 208, 127, 0.55);
+      color: #54e092;
+      background: rgba(53, 208, 127, 0.08);
+    }
+
+    .keyword {
+      color: var(--accent);
+      font-weight: 900;
+      font-size: 16px;
+      line-height: 1.45;
+      margin-bottom: 10px;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      word-break: keep-all;
+    }
+
+    .title {
+      color: var(--text);
+      font-size: 20px;
+      font-weight: 900;
+      line-height: 1.35;
+      letter-spacing: -0.03em;
+      margin-bottom: 14px;
+      word-break: keep-all;
+    }
+
+    .link {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 42px;
+      padding: 9px 15px;
+      border-radius: 999px;
+      background: #fff;
+      color: #101010;
+      font-size: 15px;
+      font-weight: 900;
+      text-decoration: none;
+    }
+
+    .empty {
+      padding: 30px 16px;
+      color: var(--muted);
+      text-align: center;
+      border: 1px dashed var(--line);
+      border-radius: 18px;
+    }
+
+    @media (max-width: 520px) {
+      .wrap { padding: 28px 14px 42px; }
+      .desc { font-size: 14px; }
+      .date-btn { padding: 11px 15px; font-size: 16px; }
+      .filter-row { grid-template-columns: minmax(0, 1fr) 118px; gap: 7px; }
+      .search, .select { min-height: 46px; border-radius: 13px; font-size: 14px; padding: 0 11px; }
+      .card { padding: 16px 15px 15px; border-radius: 20px; }
+      .meta { gap: 6px; font-size: 13px; margin-bottom: 10px; }
+      .pill { min-height: 28px; padding: 4px 9px; }
+      .pill.score { font-size: 14px; }
+      .keyword { font-size: 15px; margin-bottom: 8px; }
+      .title { font-size: 18px; margin-bottom: 12px; }
+    }
   </style>
 </head>
 <body>
@@ -15,24 +227,194 @@
       <div class="maker">제작자 1take</div>
       <div class="desc">최근 3일 뉴스만 빠르게 확인할 수 있습니다. 날짜를 선택해 오늘의 국뽕뉴스 소스를 확인하세요.</div>
     </section>
+
     <section class="date-row" id="dateRow"></section>
+
     <section class="filter-row">
       <input id="searchInput" class="search" type="search" placeholder="검색 예: HBM, KF-21, SMR" />
-      <select id="categorySelect" class="select"><option value="">전체</option></select>
+      <select id="categorySelect" class="select">
+        <option value="">전체</option>
+      </select>
     </section>
+
     <section id="newsList" class="list"></section>
   </main>
+
   <script>
-    const AVAILABLE_DATES=["2026-06-19","2026-06-18","2026-06-17"];
-    let allItems=[],selectedDate=AVAILABLE_DATES[0],searchTerm="",selectedCategory="";
-    const dateRow=document.getElementById("dateRow"),newsList=document.getElementById("newsList"),searchInput=document.getElementById("searchInput"),categorySelect=document.getElementById("categorySelect");
-    function shortDate(date){const p=date.split("-");return `${p[1]}-${p[2]}`}
-    function renderDateButtons(){dateRow.innerHTML=AVAILABLE_DATES.map(date=>`<button class="date-btn ${date===selectedDate?"active":""}" data-date="${date}">${shortDate(date)}</button>`).join("");document.querySelectorAll(".date-btn").forEach(btn=>btn.addEventListener("click",()=>{selectedDate=btn.dataset.date;selectedCategory="";renderDateButtons();loadNews(selectedDate)}))}
-    async function loadNews(date){newsList.innerHTML=`<div class="empty">뉴스를 불러오는 중입니다.</div>`;try{const res=await fetch(`data/news-${date}.json?v=${Date.now()}`);if(!res.ok)throw new Error("파일을 찾을 수 없습니다.");const data=await res.json();allItems=Array.isArray(data.items)?data.items:[];buildCategoryOptions();renderNews()}catch(error){allItems=[];newsList.innerHTML=`<div class="empty">data/news-${date}.json 파일을 찾을 수 없습니다.</div>`}}
-    function buildCategoryOptions(){const categories=[...new Set(allItems.map(item=>item.category).filter(Boolean))];categorySelect.innerHTML=`<option value="">전체</option>`+categories.map(category=>`<option value="${category}">${category}</option>`).join("");categorySelect.value=selectedCategory}
-    function renderNews(){const term=searchTerm.trim().toLowerCase();const filtered=allItems.filter(item=>{const text=`${item.keyword||""} ${item.title||""} ${item.category||""}`.toLowerCase();return(!term||text.includes(term))&&(!selectedCategory||item.category===selectedCategory)});if(!filtered.length){newsList.innerHTML=`<div class="empty">조건에 맞는 뉴스가 없습니다.</div>`;return}newsList.innerHTML=filtered.map(item=>`<article class="card"><div class="meta"><span class="pill score">추천도 ${item.score??"-"}</span><span class="pill">${item.articleDate||selectedDate}</span><span class="pill category">${item.category||"기타"}</span></div><div class="keyword">${escapeHtml(item.keyword||"")}</div><div class="title">${escapeHtml(item.title||"")}</div><a class="link" href="${item.url}" target="_blank" rel="noopener noreferrer">기사 보기</a></article>`).join("")}
-    function escapeHtml(value){return String(value).replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;").replaceAll('"',"&quot;").replaceAll("'","&#039;")}
-    searchInput.addEventListener("input",e=>{searchTerm=e.target.value;renderNews()});categorySelect.addEventListener("change",e=>{selectedCategory=e.target.value;renderNews()});renderDateButtons();loadNews(selectedDate);
+    const MAX_VISIBLE_DATES = 3;
+    const SEARCH_BACK_DAYS = 7;
+
+    let availableDates = [];
+    let allItems = [];
+    let selectedDate = "";
+    let searchTerm = "";
+    let selectedCategory = "";
+
+    const dateRow = document.getElementById("dateRow");
+    const newsList = document.getElementById("newsList");
+    const searchInput = document.getElementById("searchInput");
+    const categorySelect = document.getElementById("categorySelect");
+
+    function toKoreaDate(date = new Date()) {
+      const korea = new Date(date.toLocaleString("en-US", { timeZone: "Asia/Seoul" }));
+      return korea;
+    }
+
+    function formatDate(date) {
+      const y = date.getFullYear();
+      const m = String(date.getMonth() + 1).padStart(2, "0");
+      const d = String(date.getDate()).padStart(2, "0");
+      return `${y}-${m}-${d}`;
+    }
+
+    function shortDate(date) {
+      const parts = date.split("-");
+      return `${parts[1]}-${parts[2]}`;
+    }
+
+    function makeRecentDateCandidates() {
+      const today = toKoreaDate();
+      const dates = [];
+
+      for (let i = 0; i < SEARCH_BACK_DAYS; i++) {
+        const d = new Date(today);
+        d.setDate(today.getDate() - i);
+        dates.push(formatDate(d));
+      }
+
+      return dates;
+    }
+
+    async function checkNewsFile(date) {
+      try {
+        const res = await fetch(`data/news-${date}.json?v=${Date.now()}`, { cache: "no-store" });
+        if (!res.ok) return false;
+        const data = await res.json();
+        return Array.isArray(data.items) && data.items.length > 0;
+      } catch (e) {
+        return false;
+      }
+    }
+
+    async function initDates() {
+      newsList.innerHTML = `<div class="empty">최근 뉴스 파일을 확인하는 중입니다.</div>`;
+
+      const candidates = makeRecentDateCandidates();
+      const checks = await Promise.all(candidates.map(async date => ({
+        date,
+        exists: await checkNewsFile(date)
+      })));
+
+      availableDates = checks
+        .filter(item => item.exists)
+        .map(item => item.date)
+        .slice(0, MAX_VISIBLE_DATES);
+
+      if (!availableDates.length) {
+        dateRow.innerHTML = "";
+        newsList.innerHTML = `<div class="empty">최근 7일 안에 업로드된 뉴스 파일을 찾을 수 없습니다.</div>`;
+        return;
+      }
+
+      selectedDate = availableDates[0];
+      renderDateButtons();
+      loadNews(selectedDate);
+    }
+
+    function renderDateButtons() {
+      dateRow.innerHTML = availableDates.map(date => `
+        <button class="date-btn ${date === selectedDate ? "active" : ""}" data-date="${date}">
+          ${shortDate(date)}
+        </button>
+      `).join("");
+
+      document.querySelectorAll(".date-btn").forEach(btn => {
+        btn.addEventListener("click", () => {
+          selectedDate = btn.dataset.date;
+          selectedCategory = "";
+          renderDateButtons();
+          loadNews(selectedDate);
+        });
+      });
+    }
+
+    async function loadNews(date) {
+      newsList.innerHTML = `<div class="empty">뉴스를 불러오는 중입니다.</div>`;
+
+      try {
+        const res = await fetch(`data/news-${date}.json?v=${Date.now()}`, { cache: "no-store" });
+        if (!res.ok) throw new Error("파일을 찾을 수 없습니다.");
+
+        const data = await res.json();
+        allItems = Array.isArray(data.items) ? data.items : [];
+
+        buildCategoryOptions();
+        renderNews();
+      } catch (error) {
+        allItems = [];
+        newsList.innerHTML = `<div class="empty">data/news-${date}.json 파일을 찾을 수 없습니다.</div>`;
+      }
+    }
+
+    function buildCategoryOptions() {
+      const categories = [...new Set(allItems.map(item => item.category).filter(Boolean))];
+
+      categorySelect.innerHTML = `<option value="">전체</option>` + categories.map(category => `
+        <option value="${escapeHtml(category)}">${escapeHtml(category)}</option>
+      `).join("");
+
+      categorySelect.value = selectedCategory;
+    }
+
+    function renderNews() {
+      const term = searchTerm.trim().toLowerCase();
+
+      const filtered = allItems.filter(item => {
+        const text = `${item.keyword || ""} ${item.title || ""} ${item.category || ""}`.toLowerCase();
+        const matchSearch = !term || text.includes(term);
+        const matchCategory = !selectedCategory || item.category === selectedCategory;
+        return matchSearch && matchCategory;
+      });
+
+      if (!filtered.length) {
+        newsList.innerHTML = `<div class="empty">조건에 맞는 뉴스가 없습니다.</div>`;
+        return;
+      }
+
+      newsList.innerHTML = filtered.map(item => `
+        <article class="card">
+          <div class="meta">
+            <span class="pill score">추천도 ${item.score ?? "-"}</span>
+            <span class="pill">${item.articleDate || selectedDate}</span>
+            <span class="pill category">${escapeHtml(item.category || "기타")}</span>
+          </div>
+          <div class="keyword">${escapeHtml(item.keyword || "")}</div>
+          <div class="title">${escapeHtml(item.title || "")}</div>
+          <a class="link" href="${item.url}" target="_blank" rel="noopener noreferrer">기사 보기</a>
+        </article>
+      `).join("");
+    }
+
+    function escapeHtml(value) {
+      return String(value)
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+    }
+
+    searchInput.addEventListener("input", e => {
+      searchTerm = e.target.value;
+      renderNews();
+    });
+
+    categorySelect.addEventListener("change", e => {
+      selectedCategory = e.target.value;
+      renderNews();
+    });
+
+    initDates();
   </script>
 </body>
 </html>
