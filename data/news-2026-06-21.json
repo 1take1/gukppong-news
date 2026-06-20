@@ -1,4 +1,165 @@
 {
   "collectedAt": "2026-06-21",
-  "items": []
+  "items": [
+    {
+      "score": 96,
+      "articleDate": "2026-06-18",
+      "category": "AI·반도체",
+      "keyword": "SK하이닉스 HBM4E",
+      "title": "SK하이닉스, HBM4E 샘플 공급…차세대 HBM 경쟁 시작",
+      "url": "https://www.etnews.com/20260618000044"
+    },
+    {
+      "score": 94,
+      "articleDate": "2026-06-19",
+      "category": "AI·반도체",
+      "keyword": "K반도체 시총",
+      "title": "삼전 '테슬라' 넘고, 하이닉스 '마이크론' 제쳤다…세계 뒤흔든 ‘K-반도체’",
+      "url": "https://stock.mk.co.kr/news/view/1107625"
+    },
+    {
+      "score": 91,
+      "articleDate": "2026-06-18",
+      "category": "AI·반도체",
+      "keyword": "반도체 인재",
+      "title": "반도체 호황에 인재 확보 시급…삼성에 SK하이닉스도 '열린채용' 바람",
+      "url": "https://mobile.newsis.com/view_amp.html?ar_id=NISX20260618_0003674377"
+    },
+    {
+      "score": 89,
+      "articleDate": "2026-06-19",
+      "category": "AI·반도체",
+      "keyword": "AI 데이터센터",
+      "title": "칩 설계 넘어 AI 인프라 제국을 꿈꾸는 엔비디아의 야심 찬 비전",
+      "url": "https://magazine.hankyung.com/business/article/202606172409b"
+    },
+    {
+      "score": 91,
+      "articleDate": "2026-06-18",
+      "category": "방산·항공우주",
+      "keyword": "한화에어로 K방산",
+      "title": "한화에어로, 방산 스타트업 발굴 나선다",
+      "url": "https://www.mk.co.kr/news/business/12077219"
+    },
+    {
+      "score": 88,
+      "articleDate": "2026-06-18",
+      "category": "방산·항공우주",
+      "keyword": "K방산 생태계",
+      "title": "한화에어로, 협력사와 ‘K-방산 생태계 확장’…넥스트라이즈 첫 참가",
+      "url": "https://www.g-enews.com/article/Industry/2026/06/202606181403088347ea14faf6f5_1"
+    },
+    {
+      "score": 86,
+      "articleDate": "2026-06-19",
+      "category": "방산·항공우주",
+      "keyword": "한화오션 해양방산",
+      "title": "LNG선부터 차세대 이지스함·잠수함까지…한화오션 글로벌 해양 방산",
+      "url": "https://www.donga.com/news/K-TECH%20Global%20Leaders/article/all/20260619/134143766/1"
+    },
+    {
+      "score": 90,
+      "articleDate": "2026-06-19",
+      "category": "조선·중공업",
+      "keyword": "일본 LNG선 한국 기술",
+      "title": "\"명맥 끊긴 LNG선 부활, 韓과 손잡아야\"… 日 조선업계의 SOS",
+      "url": "https://www.g-enews.com/article/Global-Biz/2026/06/202606190328158306e7e8286d56_1"
+    },
+    {
+      "score": 86,
+      "articleDate": "2026-06-15",
+      "category": "조선·중공업",
+      "keyword": "한국 LNG선 기술전수",
+      "title": "日, LNG선 제조 부활 나선다…\"韓 조선업계에 기술전수 요청\"",
+      "url": "https://www.yna.co.kr/view/AKR20260615044800073"
+    },
+    {
+      "score": 78,
+      "articleDate": "2026-06-17",
+      "category": "조선·중공업",
+      "keyword": "HD현대중공업 조선주",
+      "title": "HD현대중공업 강세…조선주, 수주 기대감에 동반 상승",
+      "url": "https://www.cbci.co.kr/news/articleView.html?idxno=582566"
+    },
+    {
+      "score": 95,
+      "articleDate": "2026-06-19",
+      "category": "자동차·로봇",
+      "keyword": "현대차 보스턴다이내믹스",
+      "title": "[단독] 현대車, 보스턴다이내믹스 100% 품다…美증시 상장 속도",
+      "url": "https://www.mk.co.kr/news/business/12078651"
+    },
+    {
+      "score": 85,
+      "articleDate": "2026-06-20",
+      "category": "자동차·로봇",
+      "keyword": "현대차 휴머노이드",
+      "title": "현대차그룹, 보스턴다이내믹스 지분 100% 품을 듯",
+      "url": "https://www.koreancenter.or.kr/news/articleView.html?idxno=1370359"
+    },
+    {
+      "score": 76,
+      "articleDate": "2026-06-19",
+      "category": "자동차·로봇",
+      "keyword": "보스턴다이내믹스 IPO",
+      "title": "현대차그룹, 보스턴다이내믹스 소뱅 잔여지분 3억달러 인수 추진",
+      "url": "https://www.newsspace.kr/news/article.html?no=14416"
+    },
+    {
+      "score": 83,
+      "articleDate": "2026-06-18",
+      "category": "배터리·소재",
+      "keyword": "고려아연 핵심소재",
+      "title": "고려아연, 정부 지원 R&D 과제 6건 진행",
+      "url": "https://www.newspim.com/news/view/20260618000783"
+    },
+    {
+      "score": 80,
+      "articleDate": "2026-06-19",
+      "category": "배터리·소재",
+      "keyword": "LG에너지솔루션 46시리즈",
+      "title": "LG에너지솔루션, `1~5월 국내 EV 판매 +122% YoY 급등은 긍정적`",
+      "url": "https://www.mk.co.kr/news/stock/12078220"
+    },
+    {
+      "score": 93,
+      "articleDate": "2026-06-17",
+      "category": "원전·SMR",
+      "keyword": "국내 첫 SMR",
+      "title": "국내 첫 소형모듈원자로 본궤도…K-원전 수출 영토 넓히나",
+      "url": "https://www.yna.co.kr/view/AKR20260617156100003"
+    },
+    {
+      "score": 88,
+      "articleDate": "2026-06-18",
+      "category": "원전·SMR",
+      "keyword": "신규 원전 영덕 SMR 기장",
+      "title": "새 대형원전 영덕-첫 SMR 기장에 짓는다",
+      "url": "https://www.donga.com/news/Economy/article/all/20260618/134133141/2"
+    },
+    {
+      "score": 84,
+      "articleDate": "2026-06-18",
+      "category": "연구성과·세계최초기술",
+      "keyword": "DGIST 제로스왑",
+      "title": "DGIST, 'IEEE RTAS'에서 세계 최초 2년 연속 '최우수 논문상' 수상",
+      "url": "https://www.etnews.com/20260618000007"
+    },
+    {
+      "score": 81,
+      "articleDate": "2026-06-18",
+      "category": "연구성과·세계최초기술",
+      "keyword": "국가전략기술 NEXT",
+      "title": "국가전략기술 총력전 나선 정부…'NEXT 프로젝트' 시동",
+      "url": "https://www.etnews.com/20260618000120"
+    },
+    {
+      "score": 77,
+      "articleDate": "2026-06-18",
+      "category": "연구성과·세계최초기술",
+      "keyword": "KAIST 혈액순환 연구",
+      "title": "세라젬-카이스트 미래헬스케어센터, 의료기기 혈액순환 연구 성과 공개",
+      "url": "https://www.etnews.com/20260618000204"
+    }
+  ]
 }
