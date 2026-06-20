@@ -1,117 +1,149 @@
 {
-  "collectedAt": "2026-06-19",
+  "collectedAt": "2026-06-20",
   "items": [
     {
+      "score": 95,
+      "articleDate": "2026-06-19",
+      "category": "AI/반도체",
+      "keyword": "SK하이닉스 HBM",
+      "title": "SK하이닉스, 미국 HPE 콘퍼런스 참가…HBM 등 AI 메모리 전시",
+      "url": "https://www.yna.co.kr/view/AKR20260619042800003"
+    },
+    {
       "score": 92,
-      "articleDate": "2026-06-18",
-      "category": "AI·반도체",
-      "keyword": "HBM4E",
-      "title": "SK하이닉스 차세대 메모리 HBM4E 샘플 공급",
-      "url": "https://www.ytn.co.kr/_ln/0102_202606180954560776"
+      "articleDate": "2026-06-19",
+      "category": "AI/반도체",
+      "keyword": "AI반도체 ETF",
+      "title": "신한운용 반도체ETF, 석달만에 자산 7조",
+      "url": "https://www.mk.co.kr/news/stock/12078693"
+    },
+    {
+      "score": 90,
+      "articleDate": "2026-06-19",
+      "category": "AI/반도체",
+      "keyword": "삼성전자 SK하이닉스",
+      "title": "삼성전자 · SK하이닉스, 美 반도체 강세에 프리장서 3~4%대 상승",
+      "url": "https://biz.newdaily.co.kr/site/data/html/2026/06/19/2026061900024.html"
     },
     {
       "score": 88,
       "articleDate": "2026-06-18",
-      "category": "AI·반도체",
-      "keyword": "전력반도체",
-      "title": "대만 韓 차세대 전력반도체 개발 가속에 R&D 예산 늘려야",
-      "url": "https://www.yna.co.kr/view/AKR20260618104800009"
+      "category": "AI/반도체",
+      "keyword": "반도체 인재",
+      "title": "반도체 호황에 인재 확보 시급…삼성에 SK하이닉스도 열린 채용",
+      "url": "https://mobile.newsis.com/view_amp.html?ar_id=NISX20260618_0003674377"
+    },
+    {
+      "score": 87,
+      "articleDate": "2026-06-15",
+      "category": "AI/반도체",
+      "keyword": "AI 데이터센터",
+      "title": "AI 데이터센터 증설 수요 확대…솔루엠, 전력 인프라 사업 확대",
+      "url": "https://www.hankyung.com/article/202606156292O"
+    },
+    {
+      "score": 93,
+      "articleDate": "2026-06-16",
+      "category": "방산/항공우주",
+      "keyword": "한화에어로 미국수출",
+      "title": "단독 5조 잭팟 목전 한화에어로…방산 완제품 첫 美수출 기대",
+      "url": "https://www.etoday.co.kr/news/view/2593935"
+    },
+    {
+      "score": 91,
+      "articleDate": "2026-06-16",
+      "category": "방산/항공우주",
+      "keyword": "유로사토리 K방산",
+      "title": "K-방산, 유럽 최대 방산전시회서 수출 확대 총력",
+      "url": "https://www.ajunews.com/view/20260616163802837"
+    },
+    {
+      "score": 89,
+      "articleDate": "2026-06-15",
+      "category": "방산/항공우주",
+      "keyword": "K방산 유럽수출",
+      "title": "방사청·국기연·방진회, 유로사토리 2026 통합한국관 가동",
+      "url": "https://www.newspim.com/news/view/20260615000426"
     },
     {
       "score": 84,
-      "articleDate": "2026-06-17",
-      "category": "AI·반도체",
-      "keyword": "AI반도체로봇",
-      "title": "경북도 AI 반도체 로봇 국가전략거점 도약 비전 제시",
-      "url": "https://www.yna.co.kr/view/AKR20260617127900053"
+      "articleDate": "2026-06-18",
+      "category": "방산/항공우주",
+      "keyword": "한화에어로스페이스",
+      "title": "한화에어로스페이스, 넥스트라이즈 2026서 K-방산 협력사 공동 전시",
+      "url": "https://www.cbci.co.kr/news/articleView.html?idxno=582922"
     },
     {
-      "score": 81,
-      "articleDate": "2026-06-16",
-      "category": "AI·반도체",
-      "keyword": "전력반도체",
-      "title": "차세대 전력반도체 육성 정부 최대 7500억 베팅",
-      "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202606151351522120379"
+      "score": 86,
+      "articleDate": "2026-06-19",
+      "category": "방산/항공우주",
+      "keyword": "한화오션 잠수함",
+      "title": "LNG선부터 차세대 이지스함·잠수함까지…한화오션 글로벌 해양 방산",
+      "url": "https://www.donga.com/news/K-TECH%20Global%20Leaders/article/all/20260619/134143766/1"
+    },
+    {
+      "score": 85,
+      "articleDate": "2026-06-19",
+      "category": "조선/중공업",
+      "keyword": "한화오션 VLCC",
+      "title": "한화오션 VLCC 4척 건조 계약기간 정정 공시…8001억원 규모",
+      "url": "https://www.cbci.co.kr/news/articleView.html?idxno=583348"
+    },
+    {
+      "score": 82,
+      "articleDate": "2026-06-19",
+      "category": "조선/중공업",
+      "keyword": "조선 기자재 국산화",
+      "title": "삼성重서 독립해 한화오션 LNG선까지 뚫었다…외산 벽 넘는 에스엔시스",
+      "url": "https://biz.chosun.com/industry/company/2026/06/19/37ERNJK63NDFXCJFTKEQE5QSFU/"
     },
     {
       "score": 90,
-      "articleDate": "2026-06-18",
-      "category": "방산·항공우주",
-      "keyword": "캐나다잠수함",
-      "title": "120조 캐나다 잠수함 대전 한화오션 K방산 수주전",
-      "url": "https://www.g-enews.com/article/Global-Biz/2026/06/202606180623228030e8b8a793f7_1"
-    },
-    {
-      "score": 83,
-      "articleDate": "2026-06-17",
-      "category": "방산·항공우주",
-      "keyword": "한화에어로",
-      "title": "한화에어로 3.5% 상승 종전수혜 캐나다 잠수함 기대",
-      "url": "https://www.yna.co.kr/view/AKR20260617061551008"
-    },
-    {
-      "score": 78,
-      "articleDate": "2026-06-16",
-      "category": "방산·항공우주",
-      "keyword": "K방산수출",
-      "title": "K방산 수출 154억 달러 달성",
-      "url": "https://www.korea.kr/policy/civilView.do?newsId=148966544"
+      "articleDate": "2026-06-19",
+      "category": "자동차/로봇",
+      "keyword": "현대차 로봇",
+      "title": "현대차그룹, 보스턴다이내믹스 지분 100% 확보 나서나",
+      "url": "https://www.hankyung.com/article/202606197644g"
     },
     {
       "score": 86,
       "articleDate": "2026-06-18",
-      "category": "조선·중공업",
-      "keyword": "K조선수주",
-      "title": "HD한국조선해양 2026년 5월 수주 전년 대비 급증",
-      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=676409"
+      "category": "자동차/로봇",
+      "keyword": "현대차 휴머노이드",
+      "title": "로봇 공장 8월부터 본격 가동…현대차·기아 하반기 랠리 기대",
+      "url": "https://www.mk.co.kr/news/stock/12077078"
     },
     {
-      "score": 82,
-      "articleDate": "2026-06-16",
-      "category": "조선·중공업",
-      "keyword": "특수선K조선",
-      "title": "상선 넘어 특수선으로 K조선 수주 목표달성 청신호",
-      "url": "https://v.daum.net/v/20260616142744880"
-    },
-    {
-      "score": 80,
+      "score": 81,
       "articleDate": "2026-06-18",
-      "category": "자동차·로봇",
-      "keyword": "체코로봇협력",
-      "title": "한 체코 원전 넘어 첨단로봇 협력센터도 첫발",
-      "url": "https://www.etnews.com/20260617000440"
+      "category": "자동차/로봇",
+      "keyword": "현대차 하이브리드",
+      "title": "유럽 하이브리드카 교체 붐…현대차그룹 라인업 확대",
+      "url": "https://www.hankyung.com/article/2026061850971"
+    },
+    {
+      "score": 83,
+      "articleDate": "2026-06-19",
+      "category": "배터리/소재",
+      "keyword": "삼성SDI 배터리",
+      "title": "삼성SDI 급등 마감…증권가가 톱픽으로 꼽은 이유",
+      "url": "https://www.etoday.co.kr/news/view/2595513"
     },
     {
       "score": 79,
-      "articleDate": "2026-06-17",
-      "category": "자동차·로봇",
-      "keyword": "휴머노이드로봇",
-      "title": "대구시 정부에 AI 등 미래 산업 육성 지원 건의",
-      "url": "https://www.yna.co.kr/amp/view/AKR20260617119700053"
+      "articleDate": "2026-06-15",
+      "category": "배터리/소재",
+      "keyword": "전고체 배터리",
+      "title": "한농화성·이수스페셜티케미컬 등 전고체 배터리 기대감",
+      "url": "https://www.cbci.co.kr/news/articleView.html?idxno=582011"
     },
     {
-      "score": 85,
+      "score": 88,
       "articleDate": "2026-06-18",
-      "category": "배터리·소재",
-      "keyword": "핵심광물배터리",
-      "title": "고려아연 핵심광물 배터리 기술 자립화 속도",
-      "url": "https://m.dailian.co.kr/amp/news/view/1657464/%EA%B3%A0%EB%A0%A4%EC%95%84%EC%97%B0-%ED%95%B5%EC%8B%AC%EA%B4%91%EB%AC%BC%EB%B0%B0%ED%84%B0%EB%A6%AC-%EA%B8%B0%EC%88%A0-%EC%9E%90%EB%A6%BD%ED%99%94-2026"
-    },
-    {
-      "score": 87,
-      "articleDate": "2026-06-19",
-      "category": "원전·SMR",
-      "keyword": "신규원전",
-      "title": "신규 원전부지 2곳 확정 건설업계 기대",
-      "url": "https://www.mt.co.kr/estate/2026/06/19/2026061818231195809"
-    },
-    {
-      "score": 84,
-      "articleDate": "2026-06-18",
-      "category": "원전·SMR",
-      "keyword": "체코원전",
-      "title": "한수원 체코 두코바니 계약 1주년 이행 점검 27조 원전 사업 가속화",
-      "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202606181639282070949"
+      "category": "원전/SMR",
+      "keyword": "SMR 원전",
+      "title": "새 대형원전 영덕·첫 SMR 기장에 짓는다",
+      "url": "https://www.donga.com/news/Economy/article/all/20260618/134133141/2"
     }
   ]
 }
