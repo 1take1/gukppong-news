@@ -1,0 +1,63 @@
+name: Daily Korean News Collection
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 6 * * *"
+      timezone: "Asia/Seoul"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-korean-news
+  cancel-in-progress: false
+
+jobs:
+  collect-and-publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Collect and verify news
+        id: collect
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: gpt-5.5
+        run: npm run collect
+
+      - name: Upload downloadable JSON artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: daily-news-json
+          path: ${{ steps.collect.outputs.file }}
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Commit and push today's collection
+        run: |
+          TODAY="$(TZ=Asia/Seoul date +%F)"
+          FILE="data/news-${TODAY}.json"
+          test -s "$FILE"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "$FILE"
+          if git diff --cached --quiet; then
+            echo "No new collection to commit."
+            exit 0
+          fi
+          git commit -m "Add news collection ${TODAY}"
+          git push
