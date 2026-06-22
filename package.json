@@ -1,0 +1,13 @@
+{
+  "name": "gukppong-news-collector",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "collect": "node scripts/collect-news.mjs",
+    "check": "node --check scripts/collect-news.mjs"
+  },
+  "dependencies": {
+    "openai": "latest"
+  }
+}
