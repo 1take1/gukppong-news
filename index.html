@@ -231,7 +231,7 @@
     <section class="date-row" id="dateRow"></section>
 
     <section class="filter-row">
-      <input id="searchInput" class="search" type="search" placeholder="검색 예: HBM, KF-21, SMR" />
+      <input id="searchInput" class="search" type="search" placeholder="검색 예: HBM, KF-21, SMR, G7, 통상" />
       <select id="categorySelect" class="select">
         <option value="">전체</option>
       </select>
@@ -357,7 +357,26 @@
     }
 
     function buildCategoryOptions() {
-      const categories = [...new Set(allItems.map(item => item.category).filter(Boolean))];
+      const categoryOrder = [
+        "AI·반도체",
+        "방산·항공우주",
+        "조선·중공업",
+        "자동차·로봇",
+        "배터리·소재",
+        "원전·SMR",
+        "연구성과·세계최초기술",
+        "경제·산업외교"
+      ];
+
+      const categories = [...new Set(allItems.map(item => item.category).filter(Boolean))]
+        .sort((a, b) => {
+          const ai = categoryOrder.indexOf(a);
+          const bi = categoryOrder.indexOf(b);
+          if (ai === -1 && bi === -1) return a.localeCompare(b, "ko");
+          if (ai === -1) return 1;
+          if (bi === -1) return -1;
+          return ai - bi;
+        });
 
       categorySelect.innerHTML = `<option value="">전체</option>` + categories.map(category => `
         <option value="${escapeHtml(category)}">${escapeHtml(category)}</option>
