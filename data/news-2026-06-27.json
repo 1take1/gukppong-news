@@ -2,42 +2,42 @@
   "collectedAt": "2026-06-27",
   "items": [
     {
-      "score": 97,
+      "score": 96,
       "articleDate": "2026-06-26",
       "category": "AI·반도체",
-      "keyword": "삼성 10년 1000조 반도체 AI 데이터센터 투자",
-      "title": "[단독] 삼성, 10년간 1000조 투자",
-      "url": "https://www.mk.co.kr/news/business/12083536"
+      "keyword": "AI 3대 강국 R&D 200조",
+      "title": "AI 3대 강국·R&D 200조 투자…제6차 과기기본계획 확정",
+      "url": "https://www.etnews.com/20260626000186"
     },
     {
       "score": 94,
       "articleDate": "2026-06-25",
       "category": "AI·반도체",
-      "keyword": "삼성 HBM4E 하이브리드 본딩 열관리",
+      "keyword": "이재용 반도체 지방투자",
+      "title": "이재명 대통령, 이재용 회장과 회동…반도체 지방투자 논의",
+      "url": "https://www.etnews.com/20260625000430"
+    },
+    {
+      "score": 92,
+      "articleDate": "2026-06-25",
+      "category": "AI·반도체",
+      "keyword": "삼성 HBM4E 하이브리드 본딩",
       "title": "삼성, '하이브리드 본딩 우위' 정량 입증…HBM4E 열 관리 우세",
       "url": "https://www.etnews.com/20260625000266"
     },
     {
-      "score": 92,
-      "articleDate": "2026-06-26",
+      "score": 88,
+      "articleDate": "2026-06-24",
       "category": "AI·반도체",
-      "keyword": "한미반도체 AI 시스템반도체 FC 본더",
-      "title": "한미반도체, AI 시스템반도체용 FC 본더 3.5 출시",
-      "url": "https://www.mk.co.kr/news/business/12084323"
-    },
-    {
-      "score": 90,
-      "articleDate": "2026-06-26",
-      "category": "AI·반도체",
-      "keyword": "SK텔레콤 SK하이닉스 AI 투자 7400억",
-      "title": "하이닉스·이노베이션 이어 SK텔레콤까지…이곳에 무려 7400억 베팅했다",
-      "url": "https://www.mk.co.kr/news/business/12083666"
+      "keyword": "반도체 유리기판 첨단 패키징",
+      "title": "자비스, 반도체 유리기판 첨단 패키징용 X-ray CT 검사장비 수주",
+      "url": "https://www.etnews.com/20260624000217"
     },
     {
       "score": 84,
       "articleDate": "2026-06-26",
       "category": "AI·반도체",
-      "keyword": "아바코 저손상 스퍼터 TGV 반도체 패키징",
+      "keyword": "저손상 스퍼터 TGV 반도체 패키징",
       "title": "아바코 \"저손상 스퍼터·TGV 사업 확대\"",
       "url": "https://www.thelec.kr/news/articleView.html?idxno=58666"
     },
@@ -45,33 +45,33 @@
       "score": 91,
       "articleDate": "2026-06-26",
       "category": "방산·항공우주",
-      "keyword": "LIG D&A 유도탄 미사일 생산시설 5000억",
+      "keyword": "LIG 유도탄 미사일 생산시설",
       "title": "LIG D&A, 5000억원 유상 증자…구미·김천 생산 시설 대규모 확장",
       "url": "https://www.thelec.kr/news/articleView.html?idxno=58679"
     },
     {
-      "score": 88,
+      "score": 86,
+      "articleDate": "2026-06-26",
+      "category": "방산·항공우주",
+      "keyword": "충남 중기 방위산업 진입",
+      "title": "충남 중기 '방위산업' 진입 장벽 낮춘다…국방·관계기관 행·재정 지원 방안 숙고",
+      "url": "https://www.etnews.com/20260626000157"
+    },
+    {
+      "score": 85,
       "articleDate": "2026-06-25",
       "category": "방산·항공우주",
-      "keyword": "KPS 한국형 위성항법 상용화 우주항공청",
+      "keyword": "KPS 한국형 위성항법",
       "title": "KPS 상용화 속도낸다…우주청, 위성항법 기업 지원방안 논의",
       "url": "https://www.etnews.com/20260625000222"
     },
     {
-      "score": 83,
+      "score": 81,
       "articleDate": "2026-06-23",
       "category": "방산·항공우주",
-      "keyword": "항공관제 스타링크 저궤도 위성 백업망",
+      "keyword": "항공관제 저궤도 위성 백업망",
       "title": "“항공관제에 스타링크 쓴다”…공항공사, 저궤도 위성 백업망 추진",
       "url": "https://www.etnews.com/20260623000322"
-    },
-    {
-      "score": 82,
-      "articleDate": "2026-06-26",
-      "category": "방산·항공우주",
-      "keyword": "UAM 하늘 나는 택시 국토교통기술대전",
-      "title": "“우리나라도 하늘 나는 택시 시대 성큼”…한국판 CES 현장 가보니",
-      "url": "https://www.mk.co.kr/news/business/12084263"
     },
     {
       "score": 80,
@@ -85,33 +85,33 @@
       "score": 78,
       "articleDate": "2026-06-26",
       "category": "조선·중공업",
-      "keyword": "가온전선 AI 데이터센터 버스덕트 공급",
+      "keyword": "가온전선 AI 데이터센터 버스덕트",
       "title": "가온전선, 글로벌 전기차 업체 AI 데이터센터에 버스덕트 공급",
       "url": "https://www.thelec.kr/news/articleView.html?idxno=58663"
     },
     {
-      "score": 87,
+      "score": 83,
       "articleDate": "2026-06-26",
       "category": "자동차·로봇",
-      "keyword": "현대차 8세대 아반떼 AI 부산모빌리티쇼",
-      "title": "현대차, 8세대 아반떼 공개 … AI도 품었다",
-      "url": "https://www.mk.co.kr/news/business/12084330"
+      "keyword": "국토교통기술대전 미래 모빌리티",
+      "title": "'2026 국토교통기술대전' 폐막…관람객 3만명 역대 최대 흥행",
+      "url": "https://www.etnews.com/20260626000275"
     },
     {
-      "score": 84,
+      "score": 80,
       "articleDate": "2026-06-26",
       "category": "자동차·로봇",
-      "keyword": "현대차 네이버 지도 웨일 커넥티드카",
-      "title": "현대차 올라 탄 네이버, 지도·브라우저 싣는다",
-      "url": "https://www.mk.co.kr/news/business/12084332"
+      "keyword": "미래차 청년 실무교육",
+      "title": "한국공학대, 청년도약 부트캠프 선정…미래차 청년 실무교육 본격 추진",
+      "url": "https://www.etnews.com/20260626000096"
     },
     {
-      "score": 82,
-      "articleDate": "2026-06-21",
-      "category": "배터리·소재",
-      "keyword": "한덕화학 반도체 현상액 소재 1300억 공장",
-      "title": "한덕화학, 평택 포승에 1300억원 반도체 현상액 생산공장 첫 삽",
-      "url": "https://www.etnews.com/20260621000100"
+      "score": 79,
+      "articleDate": "2026-06-26",
+      "category": "자동차·로봇",
+      "keyword": "재활 장애환자 로봇 기술",
+      "title": "고대 안암병원-휴로틱스, 재활·장애환자 위한 로봇 기술 협력",
+      "url": "https://www.etnews.com/20260626000250"
     },
     {
       "score": 76,
@@ -120,6 +120,38 @@
       "keyword": "부산 모빌리티쇼 현대차 BMW BYD",
       "title": "국내 최대 자동차 전시회 부산 모빌리티쇼…현대차·BMW·BYD 총출동",
       "url": "https://www.etnews.com/20260623000145"
+    },
+    {
+      "score": 82,
+      "articleDate": "2026-06-21",
+      "category": "배터리·소재",
+      "keyword": "반도체 현상액 소재 생산공장",
+      "title": "한덕화학, 평택 포승에 1300억원 반도체 현상액 생산공장 첫 삽",
+      "url": "https://www.etnews.com/20260621000100"
+    },
+    {
+      "score": 79,
+      "articleDate": "2026-06-26",
+      "category": "배터리·소재",
+      "keyword": "연료전지 촉매 백금 코발트 소재",
+      "title": "AI가 밝힌 연료전지 촉매 열화 비밀…“백금-코발트 수명 늘린다”",
+      "url": "https://www.etnews.com/20260626000068"
+    },
+    {
+      "score": 86,
+      "articleDate": "2026-06-26",
+      "category": "연구성과·세계최초기술",
+      "keyword": "슈퍼컴퓨터 TOP500 국내 최고 순위",
+      "title": "NHN 팩토리X, '슈퍼컴퓨터 TOP500' 국내 최고 순위 등재",
+      "url": "https://www.etnews.com/20260626000089"
+    },
+    {
+      "score": 82,
+      "articleDate": "2026-06-26",
+      "category": "연구성과·세계최초기술",
+      "keyword": "KISTI 지역 산업 AI전환",
+      "title": "KISTI, 지역 산업 AI전환 지원 확대...'부산 AX 협의체' 출범",
+      "url": "https://www.etnews.com/20260626000321"
     }
   ]
 }
