@@ -1,0 +1,165 @@
+{
+  "collectedAt": "2026-06-29",
+  "items": [
+    {
+      "score": 95,
+      "articleDate": "2026-06-28",
+      "category": "AI·반도체",
+      "keyword": "삼성전기 AI 서버 MLCC 유리기판 5000억",
+      "title": "MLCC·유리기판 접수 나선 삼성전기",
+      "url": "https://www.hankyung.com/article/2026062823351"
+    },
+    {
+      "score": 93,
+      "articleDate": "2026-06-28",
+      "category": "AI·반도체",
+      "keyword": "K-AI 얼라이언스 AI 모델 반도체 자강",
+      "title": "유영상 SK수펙스 AI위원장 \"AI 모델·반도체 자강 못하면 종속\"",
+      "url": "https://www.hankyung.com/amp/202606281838i"
+    },
+    {
+      "score": 91,
+      "articleDate": "2026-06-28",
+      "category": "AI·반도체",
+      "keyword": "한국전력 오픈AI 생성형 AI 전력서비스",
+      "title": "\"전력 서비스에 생성형 AI 도입\"…한국전력-오픈AI 업무협약",
+      "url": "https://www.mt.co.kr/amp/economy/2026/06/28/2026062809350320481"
+    },
+    {
+      "score": 89,
+      "articleDate": "2026-06-28",
+      "category": "연구성과·세계최초기술",
+      "keyword": "2500시간 전고체전지 탄성 이온전도 고분자",
+      "title": "2500시간 충·방전 반복해도 끄떡없는 '고체 전지' 기술 개발",
+      "url": "https://www.mt.co.kr/tech/2026/06/28/2026062615124740672"
+    },
+    {
+      "score": 88,
+      "articleDate": "2026-06-28",
+      "category": "방산·항공우주",
+      "keyword": "글로벌 방산 공급망 록히드마틴 한국 파트너",
+      "title": "방산 메이저, 韓 파트너 찾는다",
+      "url": "https://www.hankyung.com/amp/2026062823961"
+    },
+    {
+      "score": 87,
+      "articleDate": "2026-06-28",
+      "category": "조선·중공업",
+      "keyword": "HD한국조선해양 선박 통합제어 전력변환 국산화",
+      "title": "\"선박 통합제어시스템 넘어, 전력변환 기술까지 국산화\"[fn이사람]",
+      "url": "https://www.fnnews.com/news/202606281900415485"
+    },
+    {
+      "score": 86,
+      "articleDate": "2026-06-28",
+      "category": "배터리·소재",
+      "keyword": "K배터리 흑자전환 전기차 ESS 유럽 성장",
+      "title": "K-배터리, 2분기 흑자전환 시동…전기차 회복·ESS로 부활하나",
+      "url": "https://stock.mk.co.kr/news/view/1111637"
+    },
+    {
+      "score": 85,
+      "articleDate": "2026-06-28",
+      "category": "원전·SMR",
+      "keyword": "DL그룹 미국 SMR 에너지 인프라 수주",
+      "title": "에너지 경쟁력 키우는 DL그룹, 북미시장 선점 시동",
+      "url": "https://www.fnnews.com/news/202606281847470644"
+    },
+    {
+      "score": 84,
+      "articleDate": "2026-06-28",
+      "category": "자동차·로봇",
+      "keyword": "HD현대일렉트릭 AI 스마트팩토리 자율주행 로봇",
+      "title": "AI로 생산계획 짜고 로봇이 제품 운반…HD현대일렉 배전공장 가보니 [르포]",
+      "url": "https://www.fnnews.com/news/202606281017498710"
+    },
+    {
+      "score": 83,
+      "articleDate": "2026-06-28",
+      "category": "AI·반도체",
+      "keyword": "반도체 스마트폰 3분기 수출 개선",
+      "title": "'반도체·스마트폰 덕분'…3분기에도 수출 개선 이어진다",
+      "url": "https://www.fnnews.com/news/202606281359441301"
+    },
+    {
+      "score": 82,
+      "articleDate": "2026-06-28",
+      "category": "경제·산업외교",
+      "keyword": "BIO USA K바이오 아시아 혁신 중심",
+      "title": "글로벌 바이오 축제 달군 K-바이오…\"韓, 혁신 원천 아시아의 중심\"",
+      "url": "https://www.mt.co.kr/amp/thebio/2026/06/28/2026062500200311058"
+    },
+    {
+      "score": 81,
+      "articleDate": "2026-06-28",
+      "category": "조선·중공업",
+      "keyword": "호르무즈 한국 선박 23척 안전 탈출",
+      "title": "호르무즈 내 한국 선박 대부분 탈출…인명피해 없이 마무리 국면",
+      "url": "https://www.fnnews.com/news/202606280703242018"
+    },
+    {
+      "score": 80,
+      "articleDate": "2026-06-28",
+      "category": "원전·SMR",
+      "keyword": "동남아 원전 SMR 한국기업 신시장",
+      "title": "이란 에너지쇼크에 흔들린 동남아…탈석유·전력망 확대 가속",
+      "url": "https://www.fnnews.com/news/202606281809587857"
+    },
+    {
+      "score": 79,
+      "articleDate": "2026-06-28",
+      "category": "방산·항공우주",
+      "keyword": "한화 조선 방산 AI 청년인재 476명",
+      "title": "한화, 조선·방산·ICT 청년 인재 키운다…'내일아카데미' 476명 선발",
+      "url": "https://m.dailian.co.kr/amp/news/view/1660655/%ED%95%9C%ED%99%94-%EC%A1%B0%EC%84%A0%EB%B0%A9%EC%82%B0ICT-%EC%B2%AD%EB%85%84-%EC%9D%B8%EC%9E%AC-%ED%82%A4%EC%9A%B4%EB%8B%A4-2026"
+    },
+    {
+      "score": 78,
+      "articleDate": "2026-06-28",
+      "category": "경제·산업외교",
+      "keyword": "K뷰티 미국 글로벌 포럼 과학 기술 혁신",
+      "title": "'美 BoB 포럼 연사' 김병훈 에이피알 대표 \"K뷰티, 신뢰·검증 영역 진화 중\"",
+      "url": "https://view.asiae.co.kr/article/2026062809103205896"
+    },
+    {
+      "score": 76,
+      "articleDate": "2026-06-28",
+      "category": "경제·산업외교",
+      "keyword": "K팝 엔터 빅4 해외매출 글로벌 IP",
+      "title": "[K팝 비즈니스 대전환②] \"한국보다 해외\"…엔터 빅4 매출 절반 이상이 국경 밖",
+      "url": "https://www.news2day.co.kr/article/20260616500040"
+    },
+    {
+      "score": 74,
+      "articleDate": "2026-06-28",
+      "category": "경제·산업외교",
+      "keyword": "한국거래소 BIO USA 글로벌 바이오기업 유치",
+      "title": "\"코스닥 오세요\"…거래소, 美서 해외 바이오기업 유치전",
+      "url": "https://www.fnnews.com/news/202606281831493434"
+    },
+    {
+      "score": 72,
+      "articleDate": "2026-06-28",
+      "category": "방산·항공우주",
+      "keyword": "한일 국방장관회담 방위협력",
+      "title": "한일 국방 장관 회담 의장 행사",
+      "url": "https://www.newspim.com/news/view/20260628000056"
+    },
+    {
+      "score": 70,
+      "articleDate": "2026-06-28",
+      "category": "AI·반도체",
+      "keyword": "공공 AI 대입정보 챗봇 사교육 부담 완화",
+      "title": "대입정보 AI 챗봇 29일부터 서비스",
+      "url": "https://www.hankyung.com/article/2026062822801"
+    },
+    {
+      "score": 68,
+      "articleDate": "2026-06-28",
+      "category": "경제·산업외교",
+      "keyword": "중동 위기 나프타 수출제한 해제 산업 정상화",
+      "title": "중동 비상조치 정상화 초읽기…나프타 수출제한도 해제 검토",
+      "url": "https://www.fnnews.com/news/202606280602057098"
+    }
+  ]
+}
