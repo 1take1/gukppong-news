@@ -1,10 +1,25 @@
 {
-  "collectedAt": "2026-07-05",
-  "items": [
-    {"score":88,"articleDate":"2026-07-04","category":"AI·반도체","keyword":"서남권 반도체클러스터 대통령 점검","title":"李대통령, 6일 청와대서 '반도체 클러스터' 점검회의","url":"https://www.fnnews.com/news/202607041027555398"},
-    {"score":84,"articleDate":"2026-07-04","category":"경제·산업외교","keyword":"K제조 글로벌 자금 반도체 방산 조선","title":"“반도체만으론 부족하다”…한화운용이 꺼낸 ‘K제조’ 승부수 [인터뷰]","url":"https://www.mk.co.kr/news/stock/12090387"},
-    {"score":76,"articleDate":"2026-07-04","category":"AI·반도체","keyword":"반도체 장비 케이씨텍 수주 성장","title":"반도체 대장주도 맥 못추는데…\"이 실적에 너무 싸\" 30% '쑥'[김근희의 증시랩업]","url":"https://www.mt.co.kr/stock/2026/07/04/2026070315255333110"},
-    {"score":69,"articleDate":"2026-07-04","category":"경제·산업외교","keyword":"코스닥 첨단로봇 사이버보안 기술특례","title":"“어느덧 30살 된 코스닥, 대수술 들어간다”…거래소가 꺼낸 극약 처방","url":"https://www.mk.co.kr/news/stock/12090344"},
-    {"score":58,"articleDate":"2026-07-04","category":"AI·반도체","keyword":"삼성전자 SK하이닉스 반도체 저가매수","title":"코스피, 반도체 대형주 저가 매수세로 8,000선 회복","url":"https://www.tokenpost.kr/news/market/374913"}
+  "collectedAt":"2026-07-05",
+  "items":[
+    {"score":95,"articleDate":"2026-07-04","category":"AI·반도체","keyword":"서남권 반도체클러스터 대통령 점검","title":"李대통령, 6일 청와대서 '반도체 클러스터' 점검회의","url":"https://www.fnnews.com/news/202607041027555398"},
+    {"score":93,"articleDate":"2026-07-04","category":"경제·산업외교","keyword":"K제조 글로벌 자금 반도체 방산 조선","title":"“반도체만으론 부족하다”…한화운용이 꺼낸 ‘K제조’ 승부수 [인터뷰]","url":"https://www.mk.co.kr/news/stock/12090387"},
+    {"score":91,"articleDate":"2026-07-02","category":"조선·중공업","keyword":"조선 빅3 상반기 291억달러 수주","title":"[상반기 결산] LNG·FLNG 품은 조선 빅3, 291억 달러 수주⋯ 목표 조기 달성 ‘청신호’","url":"https://www.viva100.com/article/20260702500526"},
+    {"score":89,"articleDate":"2026-07-03","category":"경제·산업외교","keyword":"영남권 첨단산업 312조 투자","title":"삼성·SK·한화·현대차·두산·LG, 영남권 312조 투자…AI 메가벨트 구축","url":"https://www.asiatime.co.kr/article/20260703500314"},
+    {"score":87,"articleDate":"2026-07-03","category":"AI·반도체","keyword":"삼성 영남 제조AI 로봇 60조","title":"삼성, 영남에 60조 투자… 노태문 “피지컬 AI 혁신 클러스터 조성”","url":"https://biz.chosun.com/it-science/ict/2026/07/03/ZZA253GSZZFBDBXJTPFOP3ATNM/?outputType=amp"},
+    {"score":85,"articleDate":"2026-07-03","category":"AI·반도체","keyword":"삼성 SK 충청 HBM 생산허브 156조","title":"삼성, 온양·천안 'HBM' 생산 허브로","url":"https://www.mt.co.kr/amp/industry/2026/07/03/2026070220014985498"},
+    {"score":83,"articleDate":"2026-07-01","category":"방산·항공우주","keyword":"K방산 메모리급 폭발 성장","title":"\"K방산, 메모리처럼 폭발적으로 성장\"","url":"https://www.hankyung.com/article/2026070102541"},
+    {"score":81,"articleDate":"2026-06-30","category":"AI·반도체","keyword":"삼성전기 AI서버 MLCC 수주","title":"빅테크가 찍은 삼성전기…AI 서버용 MLCC 4540억 잭팟","url":"https://news.bizwatch.co.kr/article/industry/2026/06/30/0030"},
+    {"score":79,"articleDate":"2026-07-01","category":"AI·반도체","keyword":"삼성전기 메가프로젝트 2조 계약","title":"두 달 새 2조 계약…삼성전기, 메가 프로젝트 타고 경쟁력 날개","url":"https://www.newstomato.com/ReadNews.aspx?no=1305789"},
+    {"score":77,"articleDate":"2026-07-01","category":"자동차·로봇","keyword":"기아 상반기 역대 최대 전기차 판매","title":"기아, 상반기에만 163만대 팔았다…'역대 최대'","url":"https://www.hankyung.com/article/202607019757g"},
+    {"score":75,"articleDate":"2026-07-01","category":"경제·산업외교","keyword":"수출 5대 강국 반도체 상반기 역대최대","title":"산업장관 \"한국, 수출 5대 강국 도약하도록 총력 지원\"","url":"https://www.yna.co.kr/amp/view/AKR20260701092700003"},
+    {"score":73,"articleDate":"2026-07-01","category":"배터리·소재","keyword":"삼성SDI 재도약 실적반등","title":"최주선 삼성SDI 사장 \"올해 실적 턴어라운드 기반 마련\"","url":"https://www.newstomato.com/ReadNews.aspx?no=1305761"},
+    {"score":71,"articleDate":"2026-07-02","category":"조선·중공업","keyword":"효성중공업 호주 전력기기 독점공급","title":"효성중공업, 호주 오스넷과 3100억 전력기기 독점 공급 계약","url":"https://www.greened.kr/news/articleView.html?idxno=344050"},
+    {"score":69,"articleDate":"2026-07-04","category":"AI·반도체","keyword":"반도체 장비 케이씨텍 수주 성장","title":"반도체 대장주도 맥 못추는데…\"이 실적에 너무 싸\" 30% '쑥'[김근희의 증시랩업]","url":"https://www.mt.co.kr/stock/2026/07/04/2026070315255333110"},
+    {"score":67,"articleDate":"2026-07-04","category":"경제·산업외교","keyword":"코스닥 첨단로봇 사이버보안 기술특례","title":"“어느덧 30살 된 코스닥, 대수술 들어간다”…거래소가 꺼낸 극약 처방","url":"https://www.mk.co.kr/news/stock/12090344"},
+    {"score":65,"articleDate":"2026-07-04","category":"AI·반도체","keyword":"삼성전자 SK하이닉스 반도체 저가매수","title":"코스피, 반도체 대형주 저가 매수세로 8,000선 회복","url":"https://www.tokenpost.kr/news/market/374913"},
+    {"score":62,"articleDate":"2026-07-04","category":"AI·반도체","keyword":"삼성전자 SK하이닉스 레버리지 거래 50조","title":"[ETF워치]이번주만 50조 거래...'삼전·닉스 레버리지' 수익률은 -30%","url":"https://news.bizwatch.co.kr/article/market/2026/07/03/0015"},
+    {"score":59,"articleDate":"2026-07-02","category":"방산·항공우주","keyword":"한화오션 KDDX 8조 캐나다 잠수함","title":"한화오션, 8조 KDDX 잡았다…이젠 60조 잠수함 조준 [배창학의 방산인사이드]","url":"https://www.hankyung.com/amp/2026070221625"},
+    {"score":56,"articleDate":"2026-07-02","category":"자동차·로봇","keyword":"세계 최대 AI 로봇대회 로보컵 인천","title":"인간 월드컵 챔피언에 도전하는 로봇들…'로보컵 2026 인천' 개막","url":"https://m.etnews.com/20260702000255"},
+    {"score":52,"articleDate":"2026-06-30","category":"경제·산업외교","keyword":"원유 자원안보 위기경보 하향","title":"원유 자원안보 위기경보 '경계→주의'…차량 2부제·5부제 일제히 종료 (종합)","url":"https://view.asiae.co.kr/article/2026063015182609986"}
   ]
 }
