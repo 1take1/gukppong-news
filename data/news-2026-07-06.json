@@ -1,0 +1,25 @@
+{
+  "collectedAt": "2026-07-06",
+  "items": [
+    {"score":94,"articleDate":"2026-07-05","category":"AI·반도체","keyword":"인텔 1.4나노 전력공급","title":"인텔 1.4나노 '아키텍처 변형' 승부수…전후면 전력공급 검토","url":"https://www.etnews.com/20260703000219"},
+    {"score":92,"articleDate":"2026-07-03","category":"AI·반도체","keyword":"반도체 훈풍 제조업","title":"[원 AI] 반도체 훈풍, 제조업 전반으로 확산…","url":"https://www.etnews.com/20260703000031"},
+    {"score":90,"articleDate":"2026-07-03","category":"AI·반도체","keyword":"중국 반도체 장비 국산화","title":"[테크 차이나] 中 반도체 장비 산업, '국산화 2막' 진입… “이제는 상징보다 실력 경쟁”","url":"https://www.etnews.com/20260703000015"},
+    {"score":88,"articleDate":"2026-07-02","category":"AI·반도체","keyword":"AI 반도체 증시","title":"코스피, 美발 ‘AI 악재’에 8000선 붕괴... 개장 9분 만에 사이드카","url":"https://biz.chosun.com/stock/market_trend/2026/07/02/FPZ2EJY4ENGXZJ7MZDOJNUGML4/?outputType=amp"},
+    {"score":86,"articleDate":"2026-07-02","category":"연구성과·세계최초기술","keyword":"국산 양자보안 상용화","title":"SKT·KT, 퀀텀코리아서 양자보안 기술력 공개","url":"https://www.mt.co.kr/amp/tech/2026/07/02/2026070210050950580"},
+    {"score":91,"articleDate":"2026-07-03","category":"자동차·로봇","keyword":"삼성 토요타 휴머노이드","title":"삼성전자, 토요타와 '휴머노이드 동맹' 확대…로봇 공급 2년 만에 '5배'","url":"https://www.etnews.com/20260703000206"},
+    {"score":84,"articleDate":"2026-07-03","category":"자동차·로봇","keyword":"피지컬AI 로봇 투자","title":"AI 경쟁은 모델 밖에서 갈린다…해외가 바라보는 한국 ‘반도체·데이터센터·피지컬 AI’ 베팅","url":"https://www.tech42.co.kr/ai-%EA%B2%BD%EC%9F%81%EC%9D%80-%EB%AA%A8%EB%8D%B8-%EB%B0%96%EC%97%90%EC%84%9C-%EA%B0%88%EB%A6%B0%EB%8B%A4%ED%95%B4%EC%99%B8%EA%B0%80-%EB%B0%94%EB%9D%BC%EB%B3%B4%EB%8A%94-%ED%95%9C%EA%B5%AD/"},
+    {"score":82,"articleDate":"2026-07-03","category":"연구성과·세계최초기술","keyword":"도어락 내화시험 업계최초","title":"코맥스 “업계 최초 도어락 100분 내화시험 통과”","url":"https://www.etnews.com/20260703000102"},
+    {"score":87,"articleDate":"2026-07-06","category":"조선·중공업","keyword":"한국 상반기 선박수주","title":"한국, 상반기 선박 수주 60% 늘어…점유율 19%","url":"https://news.sbs.co.kr/news/endPage.do?cooper=ATOM&news_id=N1008643241&plink=ORI"},
+    {"score":80,"articleDate":"2026-07-06","category":"조선·중공업","keyword":"중속엔진 부품 수주","title":"삼미금속, 상반기 중속엔진 커넥팅로드 수주 81억원 달성","url":"https://www.finance-scope.com/article/view/scp202607060015"},
+    {"score":85,"articleDate":"2026-07-06","category":"배터리·소재","keyword":"에코프로 배터리공장 보안","title":"SK쉴더스, 에코프로 공장서 OT 보안 실증…배터리 생산설비 보호","url":"https://www.mt.co.kr/amp/tech/2026/07/06/2026070608555860813"},
+    {"score":89,"articleDate":"2026-07-06","category":"연구성과·세계최초기술","keyword":"세계최초 골관절염 치료제","title":"'TG-C' 부활 분수령… 운명의 美임상 3상","url":"https://www.mt.co.kr/amp/thebio/2026/07/06/2026070520034692693"},
+    {"score":78,"articleDate":"2026-07-06","category":"경제·산업외교","keyword":"탄소감축 녹색기술","title":"[人사이트] 오대균 국가녹색기술연구소장 “탄소 감축은 비용 아닌 경쟁력”","url":"https://www.etnews.com/20260706000217"},
+    {"score":81,"articleDate":"2026-07-02","category":"경제·산업외교","keyword":"삼성 중남미 재생에너지","title":"삼성전자, 중남미 사업장 100% 재생에너지 전환…탄소중립 속도","url":"https://www.etnews.com/20260702000095"},
+    {"score":83,"articleDate":"2026-07-06","category":"AI·반도체","keyword":"삼성전자 반도체 성과급","title":"삼성전자 DS부문, 상반기 최대 100% 성과급 책정…모바일은 50%","url":"https://www.etnews.com/20260706000374"},
+    {"score":79,"articleDate":"2026-07-06","category":"경제·산업외교","keyword":"LG 상생결제 공급망","title":"LG, 상생결제 낙수율 10% 이상 확장 “국내 최대”","url":"https://www.etnews.com/20260706000234"},
+    {"score":76,"articleDate":"2026-07-06","category":"경제·산업외교","keyword":"K푸드 가전 50개국 수출","title":"범일산업 '하우스쿡', 정수조리기 누적 판매량 4만대 돌파","url":"https://www.etnews.com/20260706000174"},
+    {"score":77,"articleDate":"2026-07-06","category":"AI·반도체","keyword":"랜섬웨어 복구지원","title":"“랜섬웨어, 즉시 신고시 일사천리 지원”…정부, 랜섬웨어 복구 돕는다","url":"https://www.etnews.com/20260706000410"},
+    {"score":75,"articleDate":"2026-07-06","category":"AI·반도체","keyword":"통신 인프라 안전","title":"SKT, 기지국·중계기 작업 안전 강화…누적 15만6000곳 개선","url":"https://www.etnews.com/20260706000347"},
+    {"score":88,"articleDate":"2026-07-06","category":"원전·SMR","keyword":"원자력 농축 재처리","title":"[전봉근의 한반도평화워치] 한국 원자력의 미래, ‘농축·재처리’ 제도 정비에 달렸다","url":"https://www.koreadaily.com/article/20260706081439213"}
+  ]
+}
