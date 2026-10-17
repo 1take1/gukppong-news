@@ -1,0 +1,165 @@
+{
+  "collectedAt": "2026-10-18",
+  "items": [
+    {
+      "score": 97,
+      "articleDate": "2026-10-13",
+      "category": "AI·반도체",
+      "keyword": "삼성전자 영업이익 100조원 돌파",
+      "title": "\"하루에 1.2조\"…삼성전자, 세계 테크기업 최초 영업익 100조 돌파(종합2보)",
+      "url": "https://www.news1.kr/industry/general-industry/6313849"
+    },
+    {
+      "score": 96,
+      "articleDate": "2026-10-15",
+      "category": "AI·반도체",
+      "keyword": "삼성전자 zHBM SK하이닉스 HBF",
+      "title": "삼성전자 'zHBM' vs SK하닉 'HBF' 전면에…AI 반도체 경쟁 '후끈'",
+      "url": "https://www.news1.kr/industry/general-industry/6320151"
+    },
+    {
+      "score": 95,
+      "articleDate": "2026-10-14",
+      "category": "AI·반도체",
+      "keyword": "반도체 불량 분석 시간 단축",
+      "title": "4시간 걸리던 반도체 불량 분석 30분 만에…삼성전자, 신기술 개발",
+      "url": "https://www.news1.kr/industry/general-industry/6318704"
+    },
+    {
+      "score": 94,
+      "articleDate": "2026-10-15",
+      "category": "AI·반도체",
+      "keyword": "에임퓨처 온디바이스 AI 반도체",
+      "title": "[2026 경기 스타트업 서밋]에임퓨처, 기기에서 AI 돌릴 반도체 기술 공개…가전 넘어 자동차로",
+      "url": "https://www.etnews.com/20261015000053"
+    },
+    {
+      "score": 93,
+      "articleDate": "2026-10-15",
+      "category": "AI·반도체",
+      "keyword": "베슬AI GPU 20만장 확보",
+      "title": "베슬AI \"GPU 20만장 확보해 글로벌 시장 공략\"…수요 80% 해외서",
+      "url": "https://www.news1.kr/it-science/internet-platform/6321044"
+    },
+    {
+      "score": 92,
+      "articleDate": "2026-10-16",
+      "category": "방산·항공우주",
+      "keyword": "에티포스 넥스윌 드론 무인체계 방산 통신",
+      "title": "에티포스·넥스윌, 드론·무인체계 방산 통신기술 공동개발",
+      "url": "https://www.etnews.com/20261016000161"
+    },
+    {
+      "score": 91,
+      "articleDate": "2026-10-15",
+      "category": "방산·항공우주",
+      "keyword": "대전 방산 혁신기업 100 선정",
+      "title": "대전 6개 사 '2026년 방산 혁신기업 100' 선정",
+      "url": "https://www.news1.kr/local/daejeon-chungnam/6320614"
+    },
+    {
+      "score": 90,
+      "articleDate": "2026-10-13",
+      "category": "방산·항공우주",
+      "keyword": "핵잠수함 3축체계 K방산 수출",
+      "title": "방사청 \"핵잠·3축체계 적기 확보…권역별 맞춤형 'K-방산' 공략\"",
+      "url": "https://www.news1.kr/diplomacy/defense-diplomacy/6317770"
+    },
+    {
+      "score": 89,
+      "category": "연구성과·세계최초기술",
+      "keyword": "UNIST 영상 인물 3D 복원 AI 멀티썸즈",
+      "title": "UNIST, 영상 속 인물 3D 복원 AI '멀티썸즈' 개발",
+      "articleDate": "2026-10-15",
+      "url": "https://www.etnews.com/20261015000109"
+    },
+    {
+      "score": 88,
+      "category": "자동차·로봇",
+      "keyword": "한국전자전 AI 로봇 LG 클로이드",
+      "title": "'로봇이 순찰하고 물건 옮겨'…한국전자전, AI 기술 한자리에[르포]",
+      "articleDate": "2026-10-14",
+      "url": "https://www.news1.kr/industry/general-industry/6318807"
+    },
+    {
+      "score": 87,
+      "articleDate": "2026-10-14",
+      "category": "조선·중공업",
+      "keyword": "미래 해양기술 AI 조선 해상 데이터센터",
+      "title": "바다 위 데이터센터부터 AI 조선까지…미래 해양기술 부산 모였다",
+      "url": "https://www.news1.kr/local/busan-gyeongnam/6320072"
+    },
+    {
+      "score": 86,
+      "category": "배터리·소재",
+      "keyword": "폐배터리 재활용 리튬 회수",
+      "title": "엘앤에프 자회사 JHC, 폐배터리 1.5만톤 전처리 능력 확보",
+      "articleDate": "2026-10-14",
+      "url": "https://www.news1.kr/industry/general-industry/6319335"
+    },
+    {
+      "score": 85,
+      "articleDate": "2026-10-15",
+      "category": "연구성과·세계최초기술",
+      "keyword": "KAIST 스마트폰 행동패턴 스트레스 판별",
+      "title": "KAIST, 스마트폰 앱 속 반복 행동으로 일일 스트레스 판별하는 기술 개발",
+      "url": "https://www.etnews.com/20261015000416"
+    },
+    {
+      "score": 84,
+      "articleDate": "2026-10-16",
+      "category": "경제·산업외교",
+      "keyword": "G20 공급망 회복력 AI 투자 국부펀드 협력",
+      "title": "이형일, G20서 \"공급망 회복력 높이고 AI 투자해야\"…국부펀드 협력도 논의",
+      "url": "https://www.news1.kr/economy/trend/6322152"
+    },
+    {
+      "score": 83,
+      "articleDate": "2026-10-13",
+      "category": "배터리·소재",
+      "keyword": "LS머트리얼즈 미국 초고용량 커패시터 수출",
+      "title": "LS머트리얼즈, 美에 690억 규모 UC 공급…\"업계 최대 수출\"",
+      "url": "https://www.news1.kr/industry/general-industry/6317932"
+    },
+    {
+      "score": 82,
+      "articleDate": "2026-10-15",
+      "category": "자동차·로봇",
+      "keyword": "피지컬 AI 로봇 보안 디지털 신분증",
+      "title": "로봇에도 '디지털 신분증'…라온시큐어, 피지컬 AI 보안 개발",
+      "url": "https://www.news1.kr/it-science/security-hacking/6320765"
+    },
+    {
+      "score": 81,
+      "articleDate": "2026-10-16",
+      "category": "조선·중공업",
+      "keyword": "해운업 AI 전환 부산 협력",
+      "title": "한국해운협회, 부산지역산업진흥원과 해운업 AI 전환 협력",
+      "url": "https://www.news1.kr/industry/general-industry/6322072"
+    },
+    {
+      "score": 80,
+      "articleDate": "2026-10-16",
+      "category": "연구성과·세계최초기술",
+      "keyword": "한화솔루션 탠덤 태양전지 초고압 케이블 소재",
+      "title": "한화솔루션, 탠덤 셀 28년 양산 초고압 케이블 소재 키운다(종합)",
+      "url": "https://www.news1.kr/industry/general-industry/6322297"
+    },
+    {
+      "score": 79,
+      "articleDate": "2026-10-13",
+      "category": "경제·산업외교",
+      "keyword": "IMF 한국 경제성장률 전망 상향",
+      "title": "IMF, 올해 韓 성장률 3.3%로 0.7%p 상향…세계·선진국 평균 앞질러",
+      "url": "https://www.news1.kr/economy/trend/6317705"
+    },
+    {
+      "score": 78,
+      "articleDate": "2026-10-15",
+      "category": "경제·산업외교",
+      "keyword": "한미 경제계 전략투자 패스트트랙 세제지원",
+      "title": "한미 경제계, 美 전략투자 '韓 기업' 패스트트랙·세제 지원 촉구(종합)",
+      "url": "https://www.news1.kr/industry/general-industry/6321557"
+    }
+  ]
+}
