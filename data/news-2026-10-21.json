@@ -1,0 +1,165 @@
+{
+  "collectedAt": "2026-10-21",
+  "items": [
+    {
+      "score": 97,
+      "articleDate": "2026-10-21",
+      "category": "AI·반도체",
+      "keyword": "삼성전기 엔비디아 AI 반도체 기판",
+      "title": "삼성전기, 엔비디아 전용 AI 반도체 기판 생산라인 구축…전략적 파트너십 체결",
+      "url": "https://www.etnews.com/20261021000453"
+    },
+    {
+      "score": 94,
+      "articleDate": "2026-10-21",
+      "category": "AI·반도체",
+      "keyword": "현대모비스 차량용 반도체 자율주행 SDV",
+      "title": "현대모비스 사장 \"車 반도체, 멀리 보는 투자…자율주행·SDV 대비\"",
+      "url": "https://www.news1.kr/industry/auto-industry/6327364"
+    },
+    {
+      "score": 90,
+      "articleDate": "2026-10-19",
+      "category": "AI·반도체",
+      "keyword": "퓨리오사AI NPU AI 인프라 삼성SDS LG유플러스",
+      "title": "퓨리오사AI, 칩 넘어 AI 인프라로…삼성SDS·LGU+ 타고 공급망 확대",
+      "url": "https://www.news1.kr/industry/sb-founded/6321052"
+    },
+    {
+      "score": 89,
+      "articleDate": "2026-10-16",
+      "category": "AI·반도체",
+      "keyword": "SK하이닉스 반도체 소재 공정 AI",
+      "title": "\"소재부터 공정까지 AI 활용\"…SK하닉, 짧아진 개발 주기 대응",
+      "url": "https://www.news1.kr/industry/general-industry/6322436"
+    },
+    {
+      "score": 86,
+      "articleDate": "2026-10-20",
+      "category": "AI·반도체",
+      "keyword": "엑셀리스 평택 반도체 장비 생산 증설",
+      "title": "美 반도체 장비 기업 '엑셀리스', 평택 아태지역 제조 설비 증설",
+      "url": "https://www.news1.kr/economy/idustry-trade/6325081"
+    },
+    {
+      "score": 88,
+      "articleDate": "2026-10-19",
+      "category": "방산·항공우주",
+      "keyword": "현대위아 특수사업 현대로템 양도",
+      "title": "현대위아, 특수사업부 현대로템에 3584억원 양도",
+      "url": "https://www.etnews.com/20261019000176"
+    },
+    {
+      "score": 84,
+      "articleDate": "2026-10-21",
+      "category": "방산·항공우주",
+      "keyword": "국제치안산업대전 AI 순찰로봇 수출",
+      "title": "AI·순찰 로봇 한자리에…'2026 국제치안산업대전' 인천서 개막",
+      "url": "https://www.news1.kr/society/incident-accident/6327150"
+    },
+    {
+      "score": 92,
+      "articleDate": "2026-10-15",
+      "category": "조선·중공업",
+      "keyword": "HD한국조선해양 초대형 가스운반선 수주",
+      "title": "HD한국조선해양, 초대형 가스운반선 4척 수주…6258억 원 규모",
+      "url": "https://www.news1.kr/industry/general-industry/6321296"
+    },
+    {
+      "score": 82,
+      "articleDate": "2026-10-19",
+      "category": "조선·중공업",
+      "keyword": "조선해양플랜트 기자재 수출상담회",
+      "title": "KOTRA·부산시, ‘2026 조선해양플랜트기자재 수출상담회’ 개최",
+      "url": "https://kns.tv/news/articleView.html?idxno=1021630"
+    },
+    {
+      "score": 89,
+      "articleDate": "2026-10-21",
+      "category": "자동차·로봇",
+      "keyword": "HD현대로보틱스 지능형 양팔로봇",
+      "title": "HD현대로보틱스, ROBEX 2026서 '지능형 양팔로봇' 공개…제조 피지컬 AI 전략 선보인다",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49128"
+    },
+    {
+      "score": 87,
+      "articleDate": "2026-10-18",
+      "category": "자동차·로봇",
+      "keyword": "현대차 기아 제조 AI 급속충전 물류로봇",
+      "title": "제조 AI부터 급속충전 물류로봇까지…현대차 SDF 기술 200여건 공개(종합)",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4439773"
+    },
+    {
+      "score": 80,
+      "articleDate": "2026-10-21",
+      "category": "자동차·로봇",
+      "keyword": "산업AI 제조 로봇 AI 전시회",
+      "title": "‘2026 산업AI EXPO’ 개막…200여개 기업, 제조·로봇 AI 기술 선보여",
+      "url": "https://www.etnews.com/20261021000381"
+    },
+    {
+      "score": 87,
+      "articleDate": "2026-10-16",
+      "category": "배터리·소재",
+      "keyword": "LFP 양극재 국산화 배터리 공급망",
+      "title": "美, 中 원료 규제에 LFP 양극재 국산화 속도…K-배터리 공급망 재편",
+      "url": "https://www.news1.kr/industry/general-industry/6322290"
+    },
+    {
+      "score": 78,
+      "articleDate": "2026-10-21",
+      "category": "원전·SMR",
+      "keyword": "LG전자 원전 SMR 히트펌프",
+      "title": "LG전자, 원전·SMR에 히트펌프 접목 연구…에너지 신사업 확장",
+      "url": "https://www.news1.kr/industry/general-industry/6326335"
+    },
+    {
+      "score": 90,
+      "articleDate": "2026-10-19",
+      "category": "연구성과·세계최초기술",
+      "keyword": "GIST AI 암세포 약물 반응 예측",
+      "title": "새로운 약물의 암세포 반응 예측하는 AI 나왔다",
+      "url": "https://www.news1.kr/local/gwangju-jeonnam/6324249"
+    },
+    {
+      "score": 85,
+      "articleDate": "2026-10-19",
+      "category": "연구성과·세계최초기술",
+      "keyword": "삼성전자 중소기업 특허 무상 이전",
+      "title": "삼성전자, 중소·중견기업 99곳에 특허 126건 무상 이전…누적 1461건",
+      "url": "https://www.ajunews.com/view/20261019075452417"
+    },
+    {
+      "score": 94,
+      "articleDate": "2026-10-21",
+      "category": "경제·산업외교",
+      "keyword": "붐업코리아 수출 방산 AI 수출상담",
+      "title": "수출 1조 달러 앞두고 열린 '붐업코리아'…방산AI부터 치맥까지 세일즈 총력",
+      "url": "https://www.news1.kr/economy/idustry-trade/6327485"
+    },
+    {
+      "score": 91,
+      "articleDate": "2026-10-21",
+      "category": "경제·산업외교",
+      "keyword": "중견기업 2분기 수출 역대 최대",
+      "title": "중견기업 2분기 수출 357억 달러 '역대 최대'…전년比 11.9%↑",
+      "url": "https://www.news1.kr/industry/sb-founded/6326711"
+    },
+    {
+      "score": 88,
+      "articleDate": "2026-10-21",
+      "category": "경제·산업외교",
+      "keyword": "한국 EU 철강 반도체 수출 규제 개선",
+      "title": "철강·반도체 수출 부담 낮춘다…정부, EU에 규제 개선 요청",
+      "url": "https://www.mt.co.kr/economy/2026/10/21/2026102113595545712"
+    },
+    {
+      "score": 86,
+      "articleDate": "2026-10-15",
+      "category": "경제·산업외교",
+      "keyword": "한미 경제협력 대미투자 패스트트랙 세제지원",
+      "title": "한미 경제계 \"대미투자 프로젝트, 패스트트랙·세제지원 필요\"(종합)",
+      "url": "https://www.yna.co.kr/amp/view/AKR20261014188151003"
+    }
+  ]
+}
