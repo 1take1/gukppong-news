@@ -1,0 +1,165 @@
+{
+  "collectedAt": "2026-11-24",
+  "items": [
+    {
+      "score": 97,
+      "articleDate": "2026-11-18",
+      "category": "방산·항공우주",
+      "keyword": "단거리 AESA 레이다 미국 수출",
+      "title": "한화시스템, 미국 방산기업에 레이다 첫 수출…‘대량 공급’ 협의",
+      "url": "https://www.yna.co.kr/view/AKR20261118046200003"
+    },
+    {
+      "score": 95,
+      "articleDate": "2026-11-18",
+      "category": "AI·반도체",
+      "keyword": "국가 슈퍼컴퓨터·TOP500",
+      "title": "슈퍼컴 6호기 ‘한강’ 실측성능 세계 12위…국가 R&D 견인한다",
+      "url": "https://www.yna.co.kr/amp/view/AKR20261118137300063"
+    },
+    {
+      "score": 94,
+      "articleDate": "2026-11-23",
+      "category": "경제·산업외교",
+      "keyword": "11월 중순 수출 역대 최대·반도체 수출",
+      "title": "‘1조 달러’ 한국 수출, 이달 중순도 역대 최대…반도체 4배 급증",
+      "url": "https://www.yna.co.kr/amp/view/AKR20261123030651002"
+    },
+    {
+      "score": 92,
+      "articleDate": "2026-11-23",
+      "category": "방산·항공우주",
+      "keyword": "KAI 우주항공·방산 투자 및 상생금융",
+      "title": "경남 우주항공·방산 거점 육성…1.5조 투자·8천200억 금융지원",
+      "url": "https://www.yna.co.kr/view/AKR20261123051100003"
+    },
+    {
+      "score": 90,
+      "articleDate": "2026-11-23",
+      "category": "AI·반도체",
+      "keyword": "EUV 펠리클 검사장비 국산화",
+      "title": "에스디옵틱스, 초고속 가변초점 ‘EUV 펠리클 자동검사장비’ 개발…에스앤에스텍 공급",
+      "url": "https://www.etnews.com/20261123000178"
+    },
+    {
+      "score": 89,
+      "articleDate": "2026-11-22",
+      "category": "AI·반도체",
+      "keyword": "반도체 공정용 맞춤형 펄스 전원 국산화",
+      "title": "KERI, 차세대 반도체 공정 핵심 ‘맞춤형 펄스 전원’ 기술 아센디아에 이전",
+      "url": "https://www.etnews.com/20261120000292"
+    },
+    {
+      "score": 88,
+      "articleDate": "2026-11-23",
+      "category": "AI·반도체",
+      "keyword": "AI 가속기·MLPerf 학습 효율",
+      "title": "‘값비싼 GPU 놀리지 않는다’…국산 SW, AI 반도체 가동률 99.8% 입증",
+      "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02512486645648672"
+    },
+    {
+      "score": 86,
+      "articleDate": "2026-11-18",
+      "category": "경제·산업외교",
+      "keyword": "바이오의약품 CDMO 생산기반",
+      "title": "롯데바이오 송도1공장 준공…글로벌 CDMO 기업으로 도약",
+      "url": "https://www.yna.co.kr/view/AKR20261118065651017"
+    },
+    {
+      "score": 85,
+      "articleDate": "2026-11-23",
+      "category": "조선·중공업",
+      "keyword": "LPG운반선 수주·연간 목표",
+      "title": "HD한국조선해양, 3084억 규모 LPG운반선 2척 수주…연간 목표 95% 달성",
+      "url": "https://www.newsis.com/view/NISX20261123_0003879222"
+    },
+    {
+      "score": 84,
+      "articleDate": "2026-11-19",
+      "category": "조선·중공업",
+      "keyword": "초대형 원유운반선 수주",
+      "title": "한화오션, 초대형 원유운반선 2척 3642억원에 수주",
+      "url": "https://www.yna.co.kr/view/AKR20261119071600003"
+    },
+    {
+      "score": 83,
+      "articleDate": "2026-11-20",
+      "category": "조선·중공업",
+      "keyword": "초고압 해저케이블·국가 전력망",
+      "title": "LS전선·LS마린솔루션, 한전 해저케이블 사업 참여",
+      "url": "https://www.yna.co.kr/amp/view/AKR20261120043300003"
+    },
+    {
+      "score": 82,
+      "articleDate": "2026-11-20",
+      "category": "방산·항공우주",
+      "keyword": "한국·노르웨이 방산·에너지 산업협력",
+      "title": "한국·노르웨이, 방산·에너지로 협력 확대…공동사업 발굴",
+      "url": "https://www.yna.co.kr/view/AKR20261120025100003"
+    },
+    {
+      "score": 80,
+      "articleDate": "2026-11-20",
+      "category": "자동차·로봇",
+      "keyword": "반도체 패키징 물류 AMR",
+      "title": "제닉스로보틱스, 하나마이크론 17억 AMR 수주…반도체 후공정 기술 특허도 출원",
+      "url": "https://www.etoday.co.kr/news/view/2650732"
+    },
+    {
+      "score": 79,
+      "articleDate": "2026-11-23",
+      "category": "자동차·로봇",
+      "keyword": "삼성전기 자동화 로봇 공급",
+      "title": "휴림로봇, 한화로보틱스·울트라이노베이션과 삼성전기 자동화 로봇 공급 본계약",
+      "url": "https://marketin.edaily.co.kr/News/ReadE?newsId=01502246645648672"
+    },
+    {
+      "score": 78,
+      "articleDate": "2026-11-23",
+      "category": "연구성과·세계최초기술",
+      "keyword": "빛·초음파 융합 뇌졸중 위험 영상",
+      "title": "포스텍·영남대병원, 빛·초음파 융합 ‘뇌졸중 위험 예측 영상기술’ 개발",
+      "url": "https://www.etnews.com/20261123000094"
+    },
+    {
+      "score": 77,
+      "articleDate": "2026-11-23",
+      "category": "연구성과·세계최초기술",
+      "keyword": "생분해성 실크 나노섬유·항균 필터",
+      "title": "빛 없어도 세균 제거…생분해성 실크 나노섬유 필터 개발",
+      "url": "https://www.etnews.com/20261123000116"
+    },
+    {
+      "score": 76,
+      "articleDate": "2026-11-22",
+      "category": "연구성과·세계최초기술",
+      "keyword": "세계 상위 1% 고인용 연구자",
+      "title": "韓 ‘세계 상위 1% 연구자’ 74명 선정…UNIST 교수 8명 포함",
+      "url": "https://www.dongascience.com/ko/news/81008"
+    },
+    {
+      "score": 75,
+      "articleDate": "2026-11-22",
+      "category": "연구성과·세계최초기술",
+      "keyword": "흑색종 전이·세포 압력 연구",
+      "title": "KAIST-세브란스 연구팀, 흑색종 번지는 악순환 발견",
+      "url": "https://www.mt.co.kr/tech/2026/11/22/2026112210221077362"
+    },
+    {
+      "score": 74,
+      "articleDate": "2026-11-23",
+      "category": "연구성과·세계최초기술",
+      "keyword": "난분해성 폐플라스틱 화학 재활용",
+      "title": "‘난분해성 폐플라스틱 분해’ 속도 3배 높인다…기술개발",
+      "url": "https://mobile.newsis.com/view/NISX20261123_0003878981"
+    },
+    {
+      "score": 73,
+      "articleDate": "2026-11-23",
+      "category": "경제·산업외교",
+      "keyword": "공공기술 기반 알츠하이머 신약 임상",
+      "title": "연구소기업 큐어버스 ‘230억 투자유치’…코스닥 상장 추진",
+      "url": "https://www.newsis.com/view/NISX20261123_0003879475"
+    }
+  ]
+}
